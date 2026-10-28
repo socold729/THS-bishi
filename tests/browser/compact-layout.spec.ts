@@ -1,0 +1,30 @@
+import { expect, test } from "@playwright/test";
+import { mkdir } from "node:fs/promises";
+
+test("Mingri Youzi has a compact calendar, wrapping stock tiles, and preserved notes", async ({ page }) => {
+  await page.goto("/");
+  await expect(page).toHaveTitle(/明日游资/);
+  await expect(page.getByRole("link", { name: "明日游资首页", exact: true })).toBeVisible();
+  await page.getByRole("button", { name: /保存并进入工作台/ }).click();
+  await expect(page.locator(".index-card").first().locator(".metric-value")).toHaveText(/[\d,]+\.\d{2}点/, { timeout: 40000 });
+  const calendar = await page.getByRole("region", { name: "复盘日历", exact: true }).boundingBox();
+  expect(calendar).not.toBeNull();
+  expect(calendar!.height).toBeLessThanOrEqual(340);
+  const tiles = page.locator('.ladder-row[data-height="2"] .topic-stock');
+  await expect(tiles.first()).toBeVisible();
+  expect(await tiles.count()).toBeGreaterThan(1);
+  const first = (await tiles.nth(0).boundingBox())!, second = (await tiles.nth(1).boundingBox())!;
+  expect(second.x).toBeGreaterThan(first.x);
+  expect(Math.abs(second.y - first.y)).toBeLessThan(2);
+  expect(first.width).toBeLessThan(300);
+  await mkdir(".cache/screenshots", { recursive: true });
+  await page.screenshot({ path: ".cache/screenshots/mingri-youzi-compact-desktop.png", fullPage: true });
+  await page.getByRole("textbox", { name: "日历下方每日复盘笔记", exact: true }).fill("测试：紧凑布局仍能同步笔记");
+  await expect(page.getByRole("textbox", { name: "右侧复盘笔记", exact: true })).toHaveValue("测试：紧凑布局仍能同步笔记");
+  await page.getByRole("textbox", { name: "日历下方每日复盘笔记", exact: true }).fill("");
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  const mobileFirst = (await tiles.nth(0).boundingBox())!, mobileSecond = (await tiles.nth(1).boundingBox())!;
+  expect(mobileSecond.x).toBeGreaterThan(mobileFirst.x);
+  await page.screenshot({ path: ".cache/screenshots/mingri-youzi-compact-mobile.png", fullPage: true });
+});

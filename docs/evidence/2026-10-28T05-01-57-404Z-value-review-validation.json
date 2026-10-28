@@ -1,0 +1,84 @@
+{
+  "recordedAt": "2026-10-28T05:01:57.409Z",
+  "stage": "value-review-increment",
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "unit": {
+    "passed": 100,
+    "failed": 0,
+    "mockedData": true
+  },
+  "browserFirstFull": {
+    "startTime": "2026-10-28T04:54:11.488Z",
+    "duration": 99180.787,
+    "expected": 14,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "browserFinal": {
+    "startTime": "2026-10-28T04:58:12.301Z",
+    "duration": 140141.256,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "liveFinancialProbes": {
+    "succeeded": 6,
+    "rowsEach": 16,
+    "symbols": [
+      "600519.SH"
+    ],
+    "provider": "扶摇 REST"
+  },
+  "liveModel": {
+    "status": "completed",
+    "model": "gpt-6.1-sol",
+    "style": "value",
+    "date": "2026-10-27",
+    "symbols": [
+      "600519.SH"
+    ],
+    "inputEvidence": 31,
+    "citedEvidence": 16,
+    "facts": 5,
+    "inferences": 4,
+    "uncertainties": 6,
+    "observations": 2,
+    "partial": true,
+    "durationMs": 76034,
+    "manualBodyReviewed": true,
+    "demonstrationCondition": true
+  },
+  "ifind": {
+    "currentConnection": "initialize timeout/reset",
+    "historicalValuationLiveVerified": false,
+    "announcementLiveAppVerified": false,
+    "previousSkillSampleSuccessRetained": true
+  },
+  "privateRealReport": ".cache/value-ai-live-2026-10-28T04-56-25-010Z/report.md",
+  "changedScope": [
+    "annual/quarterly three statements",
+    "dated valuation and announcement adapters",
+    "versioned local investment hypothesis tracking",
+    "AI evidence integration and context invalidation"
+  ],
+  "notCompleted": [
+    "reliable live historical valuation retrieval",
+    "complete announcement originals and coverage",
+    "full valuation history and percentiles",
+    "background scheduled tracking",
+    "cross-device hypothesis sync",
+    "durable AI report history and feedback"
+  ],
+  "temporaryWrappersRemoved": [
+    "value-financial-probes.mts",
+    "value-ifind-probe.cjs",
+    "value-configure-ifind.mts",
+    "value-ifind-adapter-probe.mts",
+    "value-ifind-connection-trace.mts",
+    "value-ifind-news-https-trace.mts",
+    "value-live-data-check.mts"
+  ]
+}

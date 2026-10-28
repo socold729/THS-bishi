@@ -1,0 +1,115 @@
+{
+  "recordedAt": "2026-10-28T16:31:36.374Z",
+  "features": {
+    "manualArchive": "implemented-browser-local-only",
+    "independentCustomMethods": "implemented-actual-data-scoping",
+    "movingAverageWarmup": "implemented-monthly-long-history-limited",
+    "noIndexBroadcast": "implemented-schema-prompt-validation",
+    "swingDedup": "implemented-conservative",
+    "quarterAndIndustry": "implemented-conditional-live-availability",
+    "starComposite": "real-verified-000680.SH"
+  },
+  "implementationFiles": 41,
+  "tests": {
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "units": {
+      "passed": 128,
+      "failed": 0,
+      "mockInputs": true
+    },
+    "browser": {
+      "passed": 18,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "durationMs": 126423.131,
+      "note": "Two final backend metadata/notice fixes were checked by final units/build and real swing; full browser preceded them."
+    }
+  },
+  "models": [
+    {
+      "style": "short",
+      "status": "completed",
+      "date": "2026-10-27",
+      "model": "gpt-6.1-sol",
+      "evidenceCount": 26,
+      "partial": true,
+      "customSnapshotPresent": true,
+      "privateReport": ".cache/increment-live-2026-10-28T16-10-12-331Z/short-report.md"
+    },
+    {
+      "style": "swing",
+      "status": "completed",
+      "date": "2026-10-27",
+      "model": "gpt-6.1-sol",
+      "evidenceCount": 32,
+      "partial": true,
+      "customSnapshotPresent": true,
+      "privateReport": ".cache/increment-live-2026-10-28T16-22-57-566Z/swing-report.md"
+    },
+    {
+      "style": "value",
+      "status": "completed",
+      "date": "2026-10-27",
+      "model": "gpt-6.1-sol",
+      "evidenceCount": 26,
+      "partial": true,
+      "customSnapshotPresent": true,
+      "privateReport": ".cache/increment-live-2026-10-28T16-00-28-589Z/value-report.md"
+    }
+  ],
+  "uiReplay": {
+    "recordedAt": "2026-10-28T16:29:22.471Z",
+    "kind": "real-report-ui-replay-not-new-generation",
+    "apiRequests": 0,
+    "desktop": true,
+    "mobile": true,
+    "configurationLoaded": true,
+    "newModelCalls": 0,
+    "userDefaultBrowserChanged": false,
+    "settingsNoOverflow": true,
+    "errors": []
+  },
+  "logsAppendIntegrity": [
+    {
+      "file": "docs/logs/开发日志.md",
+      "originalBytes": 31927,
+      "originalSha256": "a14e432093a1d7331e14690235b1caa7de3e5463c30c6deef24c1555fffc31c9",
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/logs/AI使用与验证记录.md",
+      "originalBytes": 21065,
+      "originalSha256": "2f5929540385fe018593f45b8a6762f7e1781df1ee320b85834f481c80e64610",
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/api/接口验证记录.md",
+      "originalBytes": 22331,
+      "originalSha256": "44e430962ddc77cc80a185dd93588af3c2bcd835c544b4ea5e8091febaa6caca",
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/tests/测试记录.md",
+      "originalBytes": 25780,
+      "originalSha256": "af57cedaeae0c410d2c3fdb0a83eb16dfa91a465744265ef3c8486d17842e095",
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/README.md",
+      "originalBytes": 3772,
+      "originalSha256": "792fbc049596d6740e0c78230893d5871c4ce0a77748461297f9d4dae7bf0608",
+      "originalPrefixPreserved": true
+    }
+  ],
+  "limits": [
+    "Browser-local archive, no cross-device sync, cleared browser data loses archive",
+    "Current iFinD transport unreliable; no current full QoQ/industry-news/valuation report success",
+    "Index history limited to recent five years; insufficient monthly MA60 stays null",
+    "Industry snippets are not complete policy documents or a prosperity database",
+    "Rule/field validation is not exhaustive semantic or independent-source verification"
+  ],
+  "preview": "http://127.0.0.1:3000",
+  "deployedPublicly": false
+}

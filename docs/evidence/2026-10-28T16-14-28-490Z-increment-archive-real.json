@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-10-28T16:14:28.490Z",
+  "kind": "real-generated-report-serialization-check",
+  "reports": [
+    {
+      "style": "short",
+      "model": "gpt-6.1-sol",
+      "evidence": 26,
+      "configurationMatches": true
+    },
+    {
+      "style": "swing",
+      "model": "gpt-6.1-sol",
+      "evidence": 120,
+      "configurationMatches": true
+    },
+    {
+      "style": "value",
+      "model": "gpt-6.1-sol",
+      "evidence": 26,
+      "configurationMatches": true
+    }
+  ],
+  "count": 3,
+  "deepEqualityPassed": true,
+  "userBrowserStorageChanged": false,
+  "newModelCalls": 0
+}

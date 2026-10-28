@@ -1,0 +1,46 @@
+{
+  "first_failure": "Test expected absent path; Recharts renders an empty path for all-null data. Updated assertion checks absence of drawable d and tooltip missing value.",
+  "final_browser_stats": {
+    "startTime": "2026-10-28T00:33:13.57Z",
+    "duration": 10323.429,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "full_browser_suite_rerun": false,
+  "real_daily_five_ma_verified": true,
+  "weekly_ma60_insufficient_verified": true,
+  "development_http_status": 200,
+  "aggregation": "Compute moving averages from the corresponding day/week/month closes; insufficient window or incomplete history remains null.",
+  "mobile_horizontal_overflow": false,
+  "first_browser_stats": {
+    "startTime": "2026-10-28T00:32:29.326Z",
+    "duration": 26791.694,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "typecheck_exit_code": 0,
+  "unit_tests": {
+    "new": 5,
+    "passed": 51,
+    "failed": 0
+  },
+  "new_api_endpoints": [],
+  "screenshots_reviewed": [
+    "mingri-youzi-five-ma-desktop.png",
+    "mingri-youzi-five-ma-mobile.png"
+  ],
+  "recorded_at_utc": "2026-10-28T00:34:09.2452286+00:00",
+  "production_build_exit_code": 0,
+  "development_url": "http://127.0.0.1:3000",
+  "periods": [
+    5,
+    10,
+    20,
+    30,
+    60
+  ]
+}

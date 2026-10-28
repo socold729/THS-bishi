@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-28T16:32:19.629Z",
+  "kind": "local-built-server-http-check",
+  "baseUrl": "http://127.0.0.1:3000",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/settings",
+      "status": 200
+    },
+    {
+      "route": "/reports",
+      "status": 200
+    },
+    {
+      "route": "/watchlist",
+      "status": 200
+    }
+  ],
+  "modelCalls": 0
+}

@@ -1,0 +1,97 @@
+{
+  "recordedAt": "2026-10-28T02:36:28.851Z",
+  "openaiKeyConfigured": false,
+  "liveModelAttempted": false,
+  "liveModelSucceeded": false,
+  "datasets": [
+    {
+      "style": "short",
+      "date": "2026-10-27",
+      "status": "partial",
+      "evidenceCount": 3,
+      "fields": [
+        "close",
+        "change",
+        "limit-down-pool"
+      ],
+      "limitations": [
+        "深证成指所选交易日行情缺失，未使用上一交易日替代。",
+        "创业板指所选交易日行情缺失，未使用上一交易日替代。",
+        "科创50所选交易日行情缺失，未使用上一交易日替代。",
+        "深证成指日线：金融数据请求超时或连接失败，未使用替代数据。",
+        "创业板指日线：金融数据请求超时或连接失败，未使用替代数据。",
+        "科创50日线：金融数据请求超时或连接失败，未使用替代数据。",
+        "涨停池：金融数据请求超时或连接失败，未使用替代数据。",
+        "连板梯队：本次数据等待已达到时间预算，本项未继续请求。可稍后手动重试。",
+        "连板题材：没有可关联题材的连板样本。",
+        "全市场宽度 / 热点题材：尚未完成全市场行情分页与板块归因，暂不计算涨跌家数、情绪分数或题材强度。",
+        "600519.SH：本次数据等待已达到时间预算，本项未继续请求。可稍后手动重试。",
+        "相邻交易日连板样本缺失时，不分析梯队高度变化或晋级率。",
+        "涨跌停家数为供应商股票池口径；没有全市场涨跌宽度。题材词频仅描述涨停池样本，不能证明上涨原因或板块强弱。"
+      ],
+      "previousLadderDate": null
+    },
+    {
+      "style": "swing",
+      "date": "2026-10-27",
+      "status": "partial",
+      "evidenceCount": 98,
+      "fields": [
+        "close",
+        "change",
+        "day-MA5",
+        "day-MA10",
+        "day-MA20",
+        "day-MA30",
+        "day-MA60",
+        "day-change",
+        "day-position",
+        "week-MA5",
+        "week-MA10",
+        "week-MA20",
+        "week-MA30",
+        "week-change",
+        "week-position",
+        "month-MA5",
+        "month-MA10",
+        "month-change",
+        "volume-ratio",
+        "ma20",
+        "relative-daily"
+      ],
+      "limitations": [
+        "行业轮动 / 产业事件：行业目录已验证；行业全量时序与事件归因尚未接入，不能从单一指数推断轮动。",
+        "行业时序与产业事件尚不可用，不从指数涨跌推断行业轮动或上涨原因。周/月历史不足时均线留空。"
+      ],
+      "previousLadderDate": null
+    },
+    {
+      "style": "value",
+      "date": "2026-10-27",
+      "status": "partial",
+      "evidenceCount": 16,
+      "fields": [
+        "close",
+        "change",
+        "margin",
+        "growth",
+        "cash-profit",
+        "income-0-operating_income",
+        "income-0-net_profit",
+        "income-1-operating_income",
+        "income-1-net_profit",
+        "cash-0-act_cash_flow_net"
+      ],
+      "limitations": [
+        "新闻与公告：iFinD 官方库仍有超时，未取得可核验原文；公告与投资假设变化分析暂不启用。",
+        "仅有可核验的已披露年度利润/现金流数据；未接入完整资产负债表分析。最新估值快照不等于所选日估值，本轮不送入AI；历史估值、公告原文及每日重要新变化未验证，不能宣称没有变化。"
+      ],
+      "previousLadderDate": null
+    }
+  ],
+  "missingKeyRoute": {
+    "httpStatus": 200,
+    "status": "failed",
+    "errorCode": "OPENAI_NOT_CONFIGURED"
+  }
+}

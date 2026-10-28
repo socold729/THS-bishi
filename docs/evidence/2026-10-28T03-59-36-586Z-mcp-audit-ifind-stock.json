@@ -1,0 +1,90 @@
+{
+  "startedAt": "2026-10-28T03:59:36.587Z",
+  "provider": "iFinD",
+  "mode": "stock",
+  "library": "official call-node.js unchanged",
+  "agentName": "codex",
+  "phases": [
+    {
+      "method": "initialize",
+      "tool": null,
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 262,
+      "rpcErrorCode": null,
+      "rpcHasResult": true
+    },
+    {
+      "method": "notifications/initialized",
+      "tool": null,
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 102,
+      "rpcErrorCode": null,
+      "rpcHasResult": true
+    },
+    {
+      "method": "tools/list",
+      "tool": null,
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 8493,
+      "rpcErrorCode": null,
+      "rpcHasResult": true,
+      "toolNames": [
+        "get_stock_summary",
+        "search_stocks",
+        "get_stock_performance",
+        "get_stock_info",
+        "get_stock_shareholders",
+        "get_stock_financials",
+        "get_risk_indicators",
+        "get_stock_events",
+        "get_esg_data",
+        "stock_highfreq_quotes"
+      ],
+      "toolCount": 10
+    },
+    {
+      "method": "tools/call",
+      "tool": "get_stock_performance",
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 354,
+      "rpcErrorCode": null,
+      "rpcHasResult": true
+    }
+  ],
+  "calls": [
+    {
+      "service": "stock",
+      "tool": "get_stock_performance",
+      "arguments": {
+        "query": "贵州茅台2026年10月27日收盘价"
+      },
+      "startedAt": "2026-10-28T03:59:36.588Z",
+      "officialCallReturned": true,
+      "wrapperOk": true,
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": null,
+      "resultKeys": [
+        "content"
+      ],
+      "contentTypes": [
+        "text"
+      ],
+      "completedAt": "2026-10-28T03:59:48.975Z"
+    }
+  ],
+  "privateDirectory": ".cache\\mcp-audit-ifind-stock-2026-10-28T03-59-36-586Z",
+  "completedAt": "2026-10-28T03:59:48.977Z"
+}

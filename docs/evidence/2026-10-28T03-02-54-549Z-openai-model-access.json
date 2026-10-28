@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-28T03:02:54.029Z",
+  "model": "gpt-6.1-luna",
+  "endpoint": "https://api.openai.com/v1/models/{model}",
+  "httpStatus": 404,
+  "modelAccessible": false,
+  "errorCode": "model_not_found",
+  "errorType": "invalid_request_error",
+  "errorParam": "model"
+}

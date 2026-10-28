@@ -1,0 +1,68 @@
+{
+  "recordedAtUtc": "2026-10-28T04:12:18.5975333+00:00",
+  "guideUrl": "https://mcp.51ifind.com/gwstatic/static/ds_web/ifind-mcp-web/skills/SKILL_INSTALL_GUIDE.md",
+  "guideSha256": "FCF915C20B4BF96A9E7688E2FBEEA08625BCCF35A1A3C2D807B030C7CC7622FD",
+  "zipUrl": "https://s.thsi.cn/cd/ifind-java-ds-bff-web-container/ifind-mcp-web/skills/ifind-finance-data-1.5.0.zip",
+  "zipSha256": "EA7C60474CF0209F2DEA0A7EBBAD60B3517A83A97E506A118B297B0907EDC460",
+  "installationPath": "C:/Users/socold/.codex/skills/ifind-finance-data",
+  "officialFiles": [
+    {
+      "file": "call-node.js",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "call.py",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/bond.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/cn_stock.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/edb.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/enterprise.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/fund.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/future.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/global_stock.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/index.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/law.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/news_notices.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "references/quotes.md",
+      "matchesOfficialPackage": true
+    },
+    {
+      "file": "SKILL.md",
+      "matchesOfficialPackage": true
+    }
+  ],
+  "privateConfigurationReadOrPrinted": false,
+  "reinstalledOrOverwritten": false
+}

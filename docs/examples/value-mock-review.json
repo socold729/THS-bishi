@@ -1,0 +1,350 @@
+{
+  "warning": "仅为明确构造数据和模型Mock生成的测试示例，不是真实AI金融分析，不在产品中预置。",
+  "report": {
+    "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5",
+    "date": "2026-10-27",
+    "style": "value",
+    "symbols": [
+      "600519.SH"
+    ],
+    "generatedAt": "2026-10-28T02:49:57.099Z",
+    "model": "EXPLICIT_TEST_MODEL_MOCK",
+    "responseId": "NOT_A_REAL_OPENAI_CALL",
+    "partial": true,
+    "limitations": [
+      "行业：明确模拟接口部分失败",
+      "仅有可核验的已披露年度利润/现金流数据；未接入完整资产负债表分析。最新估值快照不等于所选日估值，本轮不送入AI；历史估值、公告原文及每日重要新变化未验证，不能宣称没有变化。"
+    ],
+    "summary": [
+      {
+        "kind": "fact",
+        "subject": "600519.SH",
+        "narrative": "",
+        "evidence_ids": [
+          "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4"
+        ],
+        "values": [
+          {
+            "evidence_id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4",
+            "value": 1000,
+            "unit": "元"
+          }
+        ],
+        "text": "测试公司 · 最新可见年报营收：1000 元",
+        "validation": "matched_data"
+      }
+    ],
+    "observations": [
+      {
+        "kind": "fact",
+        "subject": "600519.SH",
+        "narrative": "",
+        "evidence_ids": [
+          "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4"
+        ],
+        "values": [
+          {
+            "evidence_id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4",
+            "value": 1000,
+            "unit": "元"
+          }
+        ],
+        "text": "测试公司 · 最新可见年报营收：1000 元",
+        "validation": "matched_data"
+      },
+      {
+        "kind": "inference",
+        "subject": "600519.SH",
+        "narrative": "这些数据可能仅反映当前观察范围，仍需结合后续证据验证。",
+        "evidence_ids": [
+          "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4"
+        ],
+        "values": [
+          {
+            "evidence_id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4",
+            "value": 1000,
+            "unit": "元"
+          }
+        ],
+        "text": "这些数据可能仅反映当前观察范围，仍需结合后续证据验证。",
+        "validation": "unverified_interpretation"
+      }
+    ],
+    "specialist": [
+      {
+        "key": "business",
+        "title": "经营与财务变化",
+        "items": [
+          {
+            "kind": "fact",
+            "subject": "600519.SH",
+            "narrative": "",
+            "evidence_ids": [
+              "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4"
+            ],
+            "values": [
+              {
+                "evidence_id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4",
+                "value": 1000,
+                "unit": "元"
+              }
+            ],
+            "text": "测试公司 · 最新可见年报营收：1000 元",
+            "validation": "matched_data"
+          }
+        ]
+      },
+      {
+        "key": "valuation",
+        "title": "估值与历史信息",
+        "items": [
+          {
+            "kind": "uncertainty",
+            "subject": "市场",
+            "narrative": "当前证据不足，无法判断未覆盖的市场变化。",
+            "evidence_ids": [],
+            "values": [],
+            "text": "当前证据不足，无法判断未覆盖的市场变化。",
+            "validation": "unverified_interpretation"
+          }
+        ]
+      },
+      {
+        "key": "tracking",
+        "title": "基本面跟踪",
+        "items": [
+          {
+            "kind": "fact",
+            "subject": "600519.SH",
+            "narrative": "",
+            "evidence_ids": [
+              "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E8"
+            ],
+            "values": [
+              {
+                "evidence_id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E8",
+                "value": 120,
+                "unit": "元"
+              }
+            ],
+            "text": "测试公司 · 同报告期经营现金净额：120 元",
+            "validation": "matched_data"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "subject": "600519.SH",
+        "items": [
+          {
+            "kind": "fact",
+            "subject": "600519.SH",
+            "narrative": "",
+            "evidence_ids": [
+              "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E3"
+            ],
+            "values": [
+              {
+                "evidence_id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E3",
+                "value": 10,
+                "unit": "%"
+              }
+            ],
+            "text": "测试公司 · 净利率：10 %",
+            "validation": "matched_data"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "subject": "市场",
+        "narrative": "当前证据不足，无法判断未覆盖的市场变化。",
+        "evidence_ids": [],
+        "values": [],
+        "text": "当前证据不足，无法判断未覆盖的市场变化。",
+        "validation": "unverified_interpretation"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E1",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "close",
+        "value": 180,
+        "unit": "点",
+        "scope": "选定交易日收盘",
+        "formula": "供应商原始字段；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E2",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "change",
+        "value": 1,
+        "unit": "%",
+        "scope": "相邻交易日收盘价涨跌幅",
+        "formula": "(本日收盘/前交易日收盘−1)×100；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E3",
+        "date": "2026-10-27",
+        "observedDate": "2026-04-20",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "margin",
+        "value": 10,
+        "unit": "%",
+        "scope": "净利润/营收；可见财务报告期：2025-12-31、2024-12-31",
+        "formula": "净利润/营收；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/income-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E4",
+        "date": "2026-10-27",
+        "observedDate": "2026-04-20",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "income-0-operating_income",
+        "value": 1000,
+        "unit": "元",
+        "scope": "报告期末2025-12-31；披露日2026-04-20；供应商历史修订不能还原",
+        "formula": "供应商原始字段；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/income-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E5",
+        "date": "2026-10-27",
+        "observedDate": "2026-04-20",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "income-0-net_profit",
+        "value": 100,
+        "unit": "元",
+        "scope": "报告期末2025-12-31；披露日2026-04-20；供应商历史修订不能还原",
+        "formula": "供应商原始字段；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/income-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E6",
+        "date": "2026-10-27",
+        "observedDate": "2025-04-20",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "income-1-operating_income",
+        "value": 800,
+        "unit": "元",
+        "scope": "报告期末2024-12-31；披露日2025-04-20；供应商历史修订不能还原",
+        "formula": "供应商原始字段；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/income-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E7",
+        "date": "2026-10-27",
+        "observedDate": "2025-04-20",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "income-1-net_profit",
+        "value": 80,
+        "unit": "元",
+        "scope": "报告期末2024-12-31；披露日2025-04-20；供应商历史修订不能还原",
+        "formula": "供应商原始字段；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/income-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "e3e93b30-88db-4fb8-b6e9-6fca9b602ac5:E8",
+        "date": "2026-10-27",
+        "observedDate": "2026-04-20",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "cash-0-act_cash_flow_net",
+        "value": 120,
+        "unit": "元",
+        "scope": "报告期末2025-12-31；披露日2026-04-20；供应商历史修订不能还原",
+        "formula": "供应商原始字段；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/cash-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      }
+    ]
+  }
+}

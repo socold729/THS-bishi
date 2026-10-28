@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-28T04:00:27.456Z",
+  "provider": "iFinD",
+  "mode": "index",
+  "library": "official call-node.js unchanged",
+  "agentName": "codex",
+  "phases": [
+    {
+      "method": "initialize",
+      "tool": null,
+      "httpStatus": null,
+      "responseContentType": null,
+      "receivedSession": false,
+      "error": "ECONNRESET"
+    }
+  ],
+  "calls": [
+    {
+      "service": "index",
+      "tool": "index_data",
+      "arguments": {
+        "query": "上证指数2026年10月27日收盘点数"
+      },
+      "startedAt": "2026-10-28T04:00:27.457Z",
+      "officialCallReturned": false,
+      "failure": "read ECONNRESET",
+      "completedAt": "2026-10-28T04:01:02.260Z"
+    }
+  ],
+  "privateDirectory": ".cache\\mcp-audit-ifind-index-2026-10-28T04-00-27-430Z",
+  "completedAt": "2026-10-28T04:01:02.261Z"
+}

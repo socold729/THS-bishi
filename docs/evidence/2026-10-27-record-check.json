@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-10-27T20:27:08.6922164+00:00",
+  "scope": "Documentation and recorded evidence consistency only; not product tests",
+  "required_markdown_files": 8,
+  "probe_records": 8,
+  "credentials_sent_count": 0,
+  "fuyao_live_tools": 21,
+  "fuyao_documented_mappings": 103,
+  "ifind_documented_tool_cards": 55,
+  "local_markdown_links_checked": true,
+  "unexpected_root_items": [],
+  "errors": [],
+  "passed": true
+}

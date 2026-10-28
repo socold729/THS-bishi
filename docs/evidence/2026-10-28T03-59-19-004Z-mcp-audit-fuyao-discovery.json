@@ -1,0 +1,343 @@
+{
+  "startedAt": "2026-10-28T03:59:19.006Z",
+  "provider": "扶摇",
+  "keyConfigured": true,
+  "services": [
+    {
+      "domain": "a-share",
+      "phases": [
+        {
+          "method": "initialize",
+          "startedAt": "2026-10-28T03:59:19.006Z",
+          "httpStatus": 200,
+          "rpcErrorCode": null,
+          "ok": true,
+          "completedAt": "2026-10-28T03:59:20.570Z"
+        },
+        {
+          "method": "notifications/initialized",
+          "startedAt": "2026-10-28T03:59:20.570Z",
+          "httpStatus": 200,
+          "rpcErrorCode": null,
+          "ok": true,
+          "completedAt": "2026-10-28T03:59:20.841Z"
+        },
+        {
+          "method": "tools/list",
+          "startedAt": "2026-10-28T03:59:20.841Z",
+          "httpStatus": 200,
+          "rpcErrorCode": null,
+          "toolCount": 21,
+          "ok": true,
+          "completedAt": "2026-10-28T03:59:21.143Z"
+        }
+      ],
+      "serverInfo": {
+        "name": "fuyao-a-share-mcp",
+        "version": "1.0.0"
+      },
+      "toolNames": [
+        "get_a_share_prices_snapshot",
+        "get_a_share_prices_historical",
+        "get_a_share_corporate_actions_adjustment_factors",
+        "get_a_share_financials_income_statements",
+        "get_a_share_financials_balance_sheets",
+        "get_a_share_financials_cash_flow_statements",
+        "get_a_share_financials_indicators",
+        "get_a_share_valuations_snapshot",
+        "get_a_share_calendar_trading_days",
+        "get_a_share_special_data_limit_up_pool",
+        "get_a_share_special_data_limit_down_pool",
+        "get_a_share_special_data_limit_break_pool",
+        "get_a_share_special_data_limit_up_ladder",
+        "get_a_share_special_data_anomaly_analysis_stock",
+        "get_a_share_special_data_skyrocket_list",
+        "get_a_share_special_data_hot_stock_list",
+        "get_a_share_special_data_hot_stock_list_history",
+        "get_a_share_special_data_hot_stock_rank_trend",
+        "get_a_share_special_data_dragon_tiger_list",
+        "get_a_share_auction_snapshot",
+        "get_a_share_auction_short_term_benchmark"
+      ],
+      "schemas": [
+        {
+          "name": "get_a_share_prices_snapshot",
+          "inputSchema": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "limit": {
+                "description": "thscodes 省略时生效，单页条数",
+                "type": "integer",
+                "default": 100
+              },
+              "thscodes": {
+                "description": "逗号分隔的 thscode 列表，如 600519.SH,000001.SZ。给定时忽略分页参数",
+                "type": "string",
+                "default": "600519.SH,000001.SZ"
+              },
+              "offset": {
+                "description": "thscodes 省略时生效，分页偏移",
+                "type": "integer",
+                "default": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "get_a_share_prices_historical",
+          "inputSchema": {
+            "type": "object",
+            "required": [
+              "end",
+              "interval",
+              "start",
+              "thscode"
+            ],
+            "properties": {
+              "adjust": {
+                "description": "复权方式：none(不复权)、forward(前复权)、backward(后复权)",
+                "type": "string",
+                "default": "forward",
+                "enum": [
+                  "none",
+                  "forward",
+                  "backward"
+                ]
+              },
+              "interval": {
+                "description": "K线周期：1d(日线)、1w(周线)、1mo(月线)",
+                "type": "string",
+                "default": "1d",
+                "enum": [
+                  "1d",
+                  "1w",
+                  "1mo"
+                ]
+              },
+              "start": {
+                "description": "必填，起始时间，毫秒 Unix 时间戳",
+                "type": "integer"
+              },
+              "offset": {
+                "description": "分页偏移",
+                "type": "integer",
+                "default": 0
+              },
+              "thscode": {
+                "description": "单只标的 thscode，不接受逗号。多标的请分多次请求",
+                "type": "string",
+                "default": "600519.SH"
+              },
+              "end": {
+                "description": "必填，结束时间，毫秒 Unix 时间戳。end - start 不超过10年",
+                "type": "integer"
+              }
+            }
+          }
+        },
+        {
+          "name": "get_a_share_special_data_limit_up_pool",
+          "inputSchema": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "size": {
+                "description": "单页条数，默认 50，最大 200",
+                "type": "integer",
+                "default": 50
+              },
+              "date_ms": {
+                "description": "目标交易日的 Asia/Shanghai 00:00 毫秒戳；缺省取今日。非交易日返回空集（不报错）",
+                "type": "integer"
+              },
+              "sort_field": {
+                "description": "排序字段白名单",
+                "type": "string",
+                "default": "last_price",
+                "enum": [
+                  "last_price",
+                  "continue_day_cnt",
+                  "seal_money",
+                  "limit_up_time"
+                ]
+              },
+              "page": {
+                "description": "1-based 页码",
+                "type": "integer",
+                "default": 1
+              },
+              "sort_dir": {
+                "description": "排序方向",
+                "type": "string",
+                "default": "desc",
+                "enum": [
+                  "asc",
+                  "desc"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "get_a_share_special_data_limit_down_pool",
+          "inputSchema": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "size": {
+                "description": "单页条数，范围 1..200",
+                "type": "integer",
+                "default": 50
+              },
+              "date_ms": {
+                "description": "交易日上海时区零点毫秒时间戳；省略时查询当前自然日",
+                "type": "integer"
+              },
+              "sort_field": {
+                "description": "排序字段",
+                "type": "string",
+                "default": "last_limit_time",
+                "enum": [
+                  "last_limit_time",
+                  "first_limit_time",
+                  "last_price",
+                  "price_change_ratio_pct",
+                  "turnover_ratio_pct"
+                ]
+              },
+              "page": {
+                "description": "页码，从 1 开始",
+                "type": "integer",
+                "default": 1
+              },
+              "sort_dir": {
+                "description": "排序方向",
+                "type": "string",
+                "default": "desc",
+                "enum": [
+                  "asc",
+                  "desc"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "get_a_share_special_data_limit_up_ladder",
+          "inputSchema": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      ]
+    },
+    {
+      "domain": "a-share-index",
+      "phases": [
+        {
+          "method": "initialize",
+          "startedAt": "2026-10-28T03:59:21.143Z",
+          "httpStatus": 200,
+          "rpcErrorCode": null,
+          "ok": true,
+          "completedAt": "2026-10-28T03:59:21.420Z"
+        },
+        {
+          "method": "notifications/initialized",
+          "startedAt": "2026-10-28T03:59:21.420Z",
+          "httpStatus": 200,
+          "rpcErrorCode": null,
+          "ok": true,
+          "completedAt": "2026-10-28T03:59:21.687Z"
+        },
+        {
+          "method": "tools/list",
+          "startedAt": "2026-10-28T03:59:21.687Z",
+          "httpStatus": 200,
+          "rpcErrorCode": null,
+          "toolCount": 4,
+          "ok": true,
+          "completedAt": "2026-10-28T03:59:21.961Z"
+        }
+      ],
+      "serverInfo": {
+        "name": "fuyao-a-share-index-mcp",
+        "version": "1.0.0"
+      },
+      "toolNames": [
+        "get_a_share_index_catalog_ths_index_list",
+        "get_a_share_index_constituents_ths_stock_list",
+        "get_a_share_index_prices_snapshot",
+        "get_a_share_index_prices_historical"
+      ],
+      "schemas": [
+        {
+          "name": "get_a_share_index_prices_snapshot",
+          "inputSchema": {
+            "required": [
+              "thscodes"
+            ],
+            "properties": {
+              "limit": {
+                "description": "与 A 股签名对齐，对本接口无效（不支持空 thscodes 全集枚举）",
+                "type": "integer"
+              },
+              "offset": {
+                "description": "同上，对本接口无效",
+                "type": "integer"
+              },
+              "thscodes": {
+                "type": "string",
+                "description": "逗号分隔的指数 thscode 列表（如 000001.SH,399001.SZ,886042.TI,881101.TI）",
+                "default": "000001.SH,000300.SH,886042.TI"
+              }
+            },
+            "type": "object"
+          }
+        },
+        {
+          "name": "get_a_share_index_prices_historical",
+          "inputSchema": {
+            "required": [
+              "end",
+              "interval",
+              "start",
+              "thscode"
+            ],
+            "properties": {
+              "thscode": {
+                "type": "string",
+                "description": "单只指数 thscode，不接受逗号；支持 .SH / .SZ / .TI",
+                "default": "000001.SH"
+              },
+              "interval": {
+                "default": "1d",
+                "type": "string",
+                "description": "K 线周期：1d / 1w / 1mo",
+                "enum": [
+                  "1d",
+                  "1w",
+                  "1mo"
+                ]
+              },
+              "end": {
+                "type": "integer",
+                "description": "结束时间，毫秒 Unix 时间戳；end - start ≤ 10 年",
+                "default": 1747641600000
+              },
+              "start": {
+                "type": "integer",
+                "description": "起始时间，毫秒 Unix 时间戳",
+                "default": 1716105600000
+              }
+            },
+            "type": "object"
+          }
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-10-28T03:59:21.961Z"
+}

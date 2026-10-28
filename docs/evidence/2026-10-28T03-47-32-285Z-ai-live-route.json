@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-10-28T03:47:32.287Z",
+  "runId": "2026-10-28T03-47-32-285Z",
+  "taskAttempted": true,
+  "modelCallSucceeded": false,
+  "evidenceValidationPassed": false,
+  "httpStatus": 200,
+  "status": "failed",
+  "errorCode": "CAUSAL_REJECTED",
+  "error": "没有事件证据的涨跌归因已拦截。"
+}

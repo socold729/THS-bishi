@@ -1,0 +1,19 @@
+[
+  {
+    "method": "notifications/initialized",
+    "status": null,
+    "content_type": null,
+    "rpc_error": null,
+    "tool_count": null,
+    "error": "The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing."
+  },
+  {
+    "method": "tools/list",
+    "status": 200,
+    "content_type": "application/json",
+    "rpc_error": null,
+    "tool_count": 10,
+    "error": null,
+    "response_prefix": "{\"result\":{\"tools\":[{\"description\":\"A股股票数据信息摘要，适合快速了解股票某方面信息的场景。不支持具体指标和具体时间的筛选。主要支持以下方面内容的查询：上市公司基础信息、近期行情走势、最新财务指标、IPO信息、业绩预告、估值水平、股本股东分布、行业分类与主营业务等。样例问句: 同花顺和恒生电子最新估值水平\",\"inputSchema\":{\"type\":\"obje"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "recordedAt": "2026-10-28T17:36:10.909Z",
+  "kind": "real-product-endpoints-and-real-model",
+  "privateDirectory": ".cache/market-refine-live-2026-10-28T17-36-10-908Z",
+  "valueOverview": {
+    "elapsedMs": 70124,
+    "status": "partial",
+    "indices": [
+      {
+        "code": "000001.SH",
+        "closeAvailable": true
+      },
+      {
+        "code": "399001.SZ",
+        "closeAvailable": true
+      },
+      {
+        "code": "399006.SZ",
+        "closeAvailable": true
+      },
+      {
+        "code": "000680.SH",
+        "closeAvailable": true
+      }
+    ],
+    "limits": [
+      {
+        "id": "limit-up-pool",
+        "available": true
+      },
+      {
+        "id": "limit-down-pool",
+        "available": true
+      }
+    ],
+    "financialRows": 4
+  },
+  "anomalies": {
+    "elapsedMs": 20886,
+    "status": "partial",
+    "candidateCount": 30,
+    "checkedCount": 27,
+    "alertCount": 1,
+    "allConditional": true
+  },
+  "model": {
+    "http": 200,
+    "status": "failed",
+    "errorCode": "CITATION_INVALID",
+    "error": "AI 引用了不存在的证据，报告已拦截。",
+    "elapsedMs": 35172,
+    "hasUnwantedTopicPhrase": false,
+    "hasGenericTrendCaution": false
+  }
+}

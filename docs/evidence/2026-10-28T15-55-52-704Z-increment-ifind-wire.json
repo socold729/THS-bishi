@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-10-28T15:56:22.720Z",
+  "phases": [
+    {
+      "method": "initialize",
+      "startedAt": "2026-10-28T15:55:52.705Z",
+      "error": "ABORT_ERR",
+      "elapsedMs": 30014
+    }
+  ],
+  "ok": false,
+  "reason": "iFinD连接超时、中断或本次等待已取消，未使用替代数据。"
+}

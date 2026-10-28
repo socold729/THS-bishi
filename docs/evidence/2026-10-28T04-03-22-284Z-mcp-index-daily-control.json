@@ -1,0 +1,29 @@
+{
+  "recordedAt": "2026-10-28T04:03:24.532Z",
+  "provider": "扶摇",
+  "tool": "get_a_share_index_prices_historical",
+  "interval": "1d",
+  "date": "2026-10-27",
+  "phases": [
+    {
+      "method": "initialize",
+      "httpStatus": 200,
+      "rpcError": null
+    },
+    {
+      "method": "notifications/initialized",
+      "httpStatus": 200,
+      "rpcError": null
+    },
+    {
+      "method": "tools/call",
+      "httpStatus": 200,
+      "rpcError": null
+    }
+  ],
+  "businessCode": 0,
+  "message": "success",
+  "itemCount": 1,
+  "sampleDate": 1793030400000,
+  "privateDirectory": ".cache/mcp-index-daily-2026-10-28T04-03-22-284Z"
+}

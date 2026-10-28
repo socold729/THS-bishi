@@ -1,0 +1,819 @@
+{
+  "warning": "仅为明确构造数据和模型Mock生成的测试示例，不是真实AI金融分析，不在产品中预置。",
+  "report": {
+    "id": "03a52c73-f021-41c0-8933-b468d907ed8d",
+    "date": "2026-10-27",
+    "style": "swing",
+    "symbols": [
+      "600519.SH"
+    ],
+    "generatedAt": "2026-10-28T02:49:57.094Z",
+    "model": "EXPLICIT_TEST_MODEL_MOCK",
+    "responseId": "NOT_A_REAL_OPENAI_CALL",
+    "partial": true,
+    "limitations": [
+      "行业：明确模拟接口部分失败",
+      "行业时序与产业事件尚不可用，不从指数涨跌推断行业轮动或上涨原因。周/月历史不足时均线留空。"
+    ],
+    "summary": [
+      {
+        "kind": "fact",
+        "subject": "000001.SH",
+        "narrative": "",
+        "evidence_ids": [
+          "03a52c73-f021-41c0-8933-b468d907ed8d:E5"
+        ],
+        "values": [
+          {
+            "evidence_id": "03a52c73-f021-41c0-8933-b468d907ed8d:E5",
+            "value": 170.5,
+            "unit": "点"
+          }
+        ],
+        "text": "测试上证指数 · 日线 · MA20：170.5 点",
+        "validation": "matched_data"
+      }
+    ],
+    "observations": [
+      {
+        "kind": "fact",
+        "subject": "000001.SH",
+        "narrative": "",
+        "evidence_ids": [
+          "03a52c73-f021-41c0-8933-b468d907ed8d:E5"
+        ],
+        "values": [
+          {
+            "evidence_id": "03a52c73-f021-41c0-8933-b468d907ed8d:E5",
+            "value": 170.5,
+            "unit": "点"
+          }
+        ],
+        "text": "测试上证指数 · 日线 · MA20：170.5 点",
+        "validation": "matched_data"
+      },
+      {
+        "kind": "inference",
+        "subject": "000001.SH",
+        "narrative": "这些数据可能仅反映当前观察范围，仍需结合后续证据验证。",
+        "evidence_ids": [
+          "03a52c73-f021-41c0-8933-b468d907ed8d:E5"
+        ],
+        "values": [
+          {
+            "evidence_id": "03a52c73-f021-41c0-8933-b468d907ed8d:E5",
+            "value": 170.5,
+            "unit": "点"
+          }
+        ],
+        "text": "这些数据可能仅反映当前观察范围，仍需结合后续证据验证。",
+        "validation": "unverified_interpretation"
+      }
+    ],
+    "specialist": [
+      {
+        "key": "structure",
+        "title": "日周月趋势结构",
+        "items": [
+          {
+            "kind": "fact",
+            "subject": "000001.SH",
+            "narrative": "",
+            "evidence_ids": [
+              "03a52c73-f021-41c0-8933-b468d907ed8d:E5"
+            ],
+            "values": [
+              {
+                "evidence_id": "03a52c73-f021-41c0-8933-b468d907ed8d:E5",
+                "value": 170.5,
+                "unit": "点"
+              }
+            ],
+            "text": "测试上证指数 · 日线 · MA20：170.5 点",
+            "validation": "matched_data"
+          }
+        ]
+      },
+      {
+        "key": "relative",
+        "title": "相对表现与量能",
+        "items": [
+          {
+            "kind": "fact",
+            "subject": "600519.SH",
+            "narrative": "",
+            "evidence_ids": [
+              "03a52c73-f021-41c0-8933-b468d907ed8d:E29"
+            ],
+            "values": [
+              {
+                "evidence_id": "03a52c73-f021-41c0-8933-b468d907ed8d:E29",
+                "value": 1,
+                "unit": "百分点"
+              }
+            ],
+            "text": "测试公司 · 相对上证指数日涨跌差：1 百分点",
+            "validation": "matched_data"
+          }
+        ]
+      },
+      {
+        "key": "industry",
+        "title": "行业变化与证据边界",
+        "items": [
+          {
+            "kind": "uncertainty",
+            "subject": "市场",
+            "narrative": "当前证据不足，无法判断未覆盖的市场变化。",
+            "evidence_ids": [],
+            "values": [],
+            "text": "当前证据不足，无法判断未覆盖的市场变化。",
+            "validation": "unverified_interpretation"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "subject": "600519.SH",
+        "items": [
+          {
+            "kind": "fact",
+            "subject": "600519.SH",
+            "narrative": "",
+            "evidence_ids": [
+              "03a52c73-f021-41c0-8933-b468d907ed8d:E15"
+            ],
+            "values": [
+              {
+                "evidence_id": "03a52c73-f021-41c0-8933-b468d907ed8d:E15",
+                "value": 180,
+                "unit": "元"
+              }
+            ],
+            "text": "测试公司 · 收盘：180 元",
+            "validation": "matched_data"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "subject": "市场",
+        "narrative": "当前证据不足，无法判断未覆盖的市场变化。",
+        "evidence_ids": [],
+        "values": [],
+        "text": "当前证据不足，无法判断未覆盖的市场变化。",
+        "validation": "unverified_interpretation"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E1",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "close",
+        "value": 180,
+        "unit": "点",
+        "scope": "选定交易日收盘",
+        "formula": "供应商原始字段；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E2",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "change",
+        "value": 1,
+        "unit": "%",
+        "scope": "相邻交易日收盘价涨跌幅",
+        "formula": "(本日收盘/前交易日收盘−1)×100；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E3",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "day-MA5",
+        "value": 178,
+        "unit": "点",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近5根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E4",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "day-MA10",
+        "value": 175.5,
+        "unit": "点",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近10根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E5",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "day-MA20",
+        "value": 170.5,
+        "unit": "点",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近20根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E6",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "day-MA30",
+        "value": 165.5,
+        "unit": "点",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近30根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E7",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "day-MA60",
+        "value": 150.5,
+        "unit": "点",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近60根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E8",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "day-change",
+        "value": 0.5587,
+        "unit": "%",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "当前可见周期收盘/上一周期收盘−1；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E9",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "day-position",
+        "value": "收盘不低于该周期均线",
+        "unit": "MA20相对位置",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "比较本周期收盘与本周期MA20；不推断未来方向",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E10",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "week-MA5",
+        "value": 170,
+        "unit": "点",
+        "scope": "week周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "week周期最近5根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E11",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "week-MA10",
+        "value": 153,
+        "unit": "点",
+        "scope": "week周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "week周期最近10根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E12",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "week-change",
+        "value": 1.1236,
+        "unit": "%",
+        "scope": "week周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "当前可见周期收盘/上一周期收盘−1；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E13",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "month-change",
+        "value": 17.6471,
+        "unit": "%",
+        "scope": "month周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "当前可见周期收盘/上一周期收盘−1；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E14",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "000001.SH",
+        "label": "测试上证指数",
+        "field": "volume-ratio",
+        "value": 1.0028,
+        "unit": "倍",
+        "scope": "当日成交量/前5交易日均量，非盘中量比；指数成交量为供应商口径",
+        "formula": "当日量÷前5日均量；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E15",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "close",
+        "value": 180,
+        "unit": "元",
+        "scope": "构造收盘",
+        "formula": "构造收盘；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E16",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "change",
+        "value": 2,
+        "unit": "%",
+        "scope": "构造日涨跌",
+        "formula": "构造日涨跌；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E17",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "day-MA5",
+        "value": 178,
+        "unit": "元/股",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近5根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E18",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "day-MA10",
+        "value": 175.5,
+        "unit": "元/股",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近10根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E19",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "day-MA20",
+        "value": 170.5,
+        "unit": "元/股",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近20根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E20",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "day-MA30",
+        "value": 165.5,
+        "unit": "元/股",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近30根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E21",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "day-MA60",
+        "value": 150.5,
+        "unit": "元/股",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "day周期最近60根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E22",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "day-change",
+        "value": 0.5587,
+        "unit": "%",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "当前可见周期收盘/上一周期收盘−1；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E23",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "day-position",
+        "value": "收盘不低于该周期均线",
+        "unit": "MA20相对位置",
+        "scope": "day周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "比较本周期收盘与本周期MA20；不推断未来方向",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E24",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "week-MA5",
+        "value": 170,
+        "unit": "元/股",
+        "scope": "week周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "week周期最近5根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E25",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "week-MA10",
+        "value": 153,
+        "unit": "元/股",
+        "scope": "week周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "week周期最近10根收盘价算术平均；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E26",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "week-change",
+        "value": 1.1236,
+        "unit": "%",
+        "scope": "week周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "当前可见周期收盘/上一周期收盘−1；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E27",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "month-change",
+        "value": 17.6471,
+        "unit": "%",
+        "scope": "month周期，按截至选定日可见日线聚合；边界周/月可能尚未完成",
+        "formula": "当前可见周期收盘/上一周期收盘−1；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E28",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "volume-ratio",
+        "value": 1.0028,
+        "unit": "倍",
+        "scope": "当日成交量/前5交易日均量，非盘中量比；指数成交量为供应商口径",
+        "formula": "当日量÷前5日均量；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      },
+      {
+        "id": "03a52c73-f021-41c0-8933-b468d907ed8d:E29",
+        "date": "2026-10-27",
+        "observedDate": "2026-10-27",
+        "subject": "600519.SH",
+        "label": "测试公司",
+        "field": "relative-daily",
+        "value": 1,
+        "unit": "百分点",
+        "scope": "自选股日涨跌幅减上证指数日涨跌幅；不复权，非超额收益承诺",
+        "formula": "个股日涨跌幅−上证指数日涨跌幅；标准化到小数点后最多四位",
+        "status": "usable",
+        "sources": [
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/index-000001.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          },
+          {
+            "source": "扶摇",
+            "endpoint": "/api/test-only/stock-600519.SH",
+            "requestId": "mock-request",
+            "fetchedAt": "2026-10-27T09:30:00Z",
+            "sourceTime": null
+          }
+        ]
+      }
+    ]
+  }
+}

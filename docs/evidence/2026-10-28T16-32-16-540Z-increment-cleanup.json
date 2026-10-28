@@ -1,0 +1,20 @@
+{
+  "recursiveDeletion": false,
+  "officialSkillChanged": false,
+  "recordedAt": "2026-10-28T16:32:16.5432895Z",
+  "files": [
+    "increment-probes.mts",
+    "increment-verify-real.mts",
+    "increment-live.mts",
+    "increment-diagnostic.mts",
+    "increment-ifind-trace.mts",
+    "increment-ifind-wire.mts",
+    "increment-replay.mts",
+    "increment-archive-real.mts",
+    "increment-ui-replay.mjs",
+    "increment-finalize.mjs",
+    "increment-scan.mjs"
+  ],
+  "kind": "known-temporary-wrapper-cleanup",
+  "rawEvidencePreserved": true
+}

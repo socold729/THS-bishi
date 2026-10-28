@@ -1,0 +1,58 @@
+{
+  "recordedAt": "2026-10-28T17:56:18.170Z",
+  "phase": "before-first-commit",
+  "targetRepository": "socold729/THS-bishi",
+  "targetPrivate": false,
+  "authenticatedAccount": "socold729",
+  "pushPermissionVerified": true,
+  "localHistoryInitiallyAbsent": true,
+  "remoteInitiallyEmpty": true,
+  "initialAudit": {
+    "stagedFiles": 218,
+    "reachableCommits": 0,
+    "configuredCredentialNames": [
+      "FUYAO_API_KEY",
+      "IFIND_MCP_KEY",
+      "OPENAI_API_KEY"
+    ],
+    "findings": [],
+    "passed": true
+  },
+  "screenshots": {
+    "count": 4,
+    "explicitMocksOnly": true,
+    "visuallyReviewed": true,
+    "realFinancialReportImagesUploaded": false
+  },
+  "excluded": [
+    ".env.local",
+    "node_modules",
+    ".cache",
+    ".next",
+    ".tools",
+    "test-results",
+    "docs/evidence/private",
+    "local databases and signing material"
+  ],
+  "logPrefixChecks": [
+    {
+      "path": "docs/logs/开发日志.md",
+      "oldBytes": 36417,
+      "oldSha256": "e78ff0b0446656a86feeb7837ec5eb8ebdd67a0bc501bd54754b53b73df09a9e",
+      "oldPrefixPreserved": true
+    },
+    {
+      "path": "docs/logs/AI使用与验证记录.md",
+      "oldBytes": 25918,
+      "oldSha256": "c17fa4d6e4624048161443451d3ba17595bca22aab291387eea6a757f19e46d9",
+      "oldPrefixPreserved": true
+    },
+    {
+      "path": "docs/tests/测试记录.md",
+      "oldBytes": 32165,
+      "oldSha256": "456f0fe000e0c5eca29b483a370bbb676f8877a38dff7b7c72ca046bb62c9cea",
+      "oldPrefixPreserved": true
+    }
+  ],
+  "pushNotYetClaimed": true
+}

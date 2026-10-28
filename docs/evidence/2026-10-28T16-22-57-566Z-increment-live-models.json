@@ -1,0 +1,54 @@
+{
+  "recordedAt": "2026-10-28T16:24:22.691Z",
+  "privateDirectory": ".cache/increment-live-2026-10-28T16-22-57-566Z",
+  "kind": "real-financial-and-real-model-custom-reviews",
+  "requests": [
+    {
+      "style": "swing",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "completed",
+      "elapsedMs": 85122,
+      "reportPublished": true,
+      "model": "gpt-6.1-sol",
+      "plan": {
+        "scopes": [
+          "industry"
+        ],
+        "industries": [
+          "半导体",
+          "机器人"
+        ],
+        "sections": [
+          {
+            "key": "custom_1",
+            "title": "半导体与机器人行业的周K、月K趋势及周期完整性"
+          },
+          {
+            "key": "custom_2",
+            "title": "半导体与机器人行业的周期成交量与量比变化"
+          },
+          {
+            "key": "custom_3",
+            "title": "半导体与机器人行业发展资料的来源、日期与证据缺口"
+          }
+        ],
+        "includeWatchlist": false,
+        "unavailable": [],
+        "mode": "custom"
+      },
+      "customSnapshotMatches": true,
+      "evidenceCount": 32,
+      "citedEvidenceCount": 28,
+      "independentObservations": 0,
+      "deduplicatedCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T16-22-57-566Z/swing-task.json",
+      "partial": true,
+      "sourceEndpoints": [
+        "/api/a-share-index/prices/historical"
+      ],
+      "qoqEvidence": 0,
+      "industryEvidence": 32
+    }
+  ]
+}

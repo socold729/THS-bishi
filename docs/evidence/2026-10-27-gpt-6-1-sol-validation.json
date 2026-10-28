@@ -1,0 +1,32 @@
+{
+  "privateMarkdown": ".cache/ai-live-2026-10-28T03-51-22-796Z/report.md",
+  "realGenerationResponsesThisTurn": 5,
+  "finalTaskStatus": "completed",
+  "style": "short",
+  "recordedAtUtc": "2026-10-28T03:52:52.4546249+00:00",
+  "manualReportReviewed": true,
+  "date": "2026-10-27",
+  "inferencesCount": 1,
+  "replayIsNotNewModelCall": true,
+  "partial": true,
+  "citedEvidenceCount": 19,
+  "browserStats": {
+    "startTime": "2026-10-28T03:47:38.792Z",
+    "duration": 6201.3009999999995,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "model": "gpt-6.1-sol",
+  "providedEvidenceCount": 36,
+  "developmentUrl": "http://127.0.0.1:3000",
+  "typecheckExitCode": 0,
+  "publiclyDeployed": false,
+  "observationsCount": 3,
+  "validatorChange": "Tightly scoped denial of price-cause knowledge is allowed; separate asserted causal claims still rejected.",
+  "symbols": [],
+  "unitTestsPassed": 83,
+  "failuresPreserved": true,
+  "productionBuildExitCode": 0
+}

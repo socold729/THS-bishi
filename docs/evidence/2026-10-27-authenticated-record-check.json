@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-10-27T21:06:40.3373065+00:00",
+  "scope": "Authenticated probe evidence and documentation only",
+  "rest_requests": 8,
+  "rest_nonempty_successes": 8,
+  "mcp_requests": 4,
+  "mcp_nonempty_successes": 1,
+  "authenticated_tool_count": 21,
+  "tool_set_unchanged": true,
+  "credential_pattern_found_in_docs": false,
+  "local_links_valid": true,
+  "issues": [],
+  "passed": true
+}

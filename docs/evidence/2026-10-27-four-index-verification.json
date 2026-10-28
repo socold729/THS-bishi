@@ -1,0 +1,102 @@
+[
+  {
+    "fields": [
+      "date_ms",
+      "volume",
+      "turnover",
+      "open_price",
+      "high_price",
+      "low_price",
+      "close_price"
+    ],
+    "history_code": 0,
+    "history_request_id": "98f05abfcaf94ec1a07bca09c2198b35",
+    "code": "000001.SH",
+    "bar_count": 66,
+    "identity": [
+      {
+        "thscode": "000001.SH",
+        "name": "上证指数",
+        "asset_type": "a-share-index"
+      }
+    ],
+    "checked_at_utc": "2026-10-27T22:03:12.5452569+00:00",
+    "identity_code": 0,
+    "history_http_status": 200
+  },
+  {
+    "fields": [
+      "date_ms",
+      "volume",
+      "turnover",
+      "open_price",
+      "high_price",
+      "low_price",
+      "close_price"
+    ],
+    "history_code": 0,
+    "history_request_id": "7a39266a7f464c3697d2b22dc5697c53",
+    "code": "399001.SZ",
+    "bar_count": 66,
+    "identity": [
+      {
+        "thscode": "399001.SZ",
+        "name": "深证成指",
+        "asset_type": "a-share-index"
+      }
+    ],
+    "checked_at_utc": "2026-10-27T22:03:14.5727252+00:00",
+    "identity_code": 0,
+    "history_http_status": 200
+  },
+  {
+    "fields": [
+      "date_ms",
+      "volume",
+      "turnover",
+      "open_price",
+      "high_price",
+      "low_price",
+      "close_price"
+    ],
+    "history_code": 0,
+    "history_request_id": "292e1018280a4887aec8e085ff9f5145",
+    "code": "399006.SZ",
+    "bar_count": 66,
+    "identity": [
+      {
+        "thscode": "399006.SZ",
+        "name": "创业板指",
+        "asset_type": "a-share-index"
+      }
+    ],
+    "checked_at_utc": "2026-10-27T22:03:16.3223153+00:00",
+    "identity_code": 0,
+    "history_http_status": 200
+  },
+  {
+    "fields": [
+      "date_ms",
+      "volume",
+      "turnover",
+      "open_price",
+      "high_price",
+      "low_price",
+      "close_price"
+    ],
+    "history_code": 0,
+    "history_request_id": "2aefa5e7044f44a9921bda206439d0e4",
+    "code": "000688.SH",
+    "bar_count": 66,
+    "identity": [
+      {
+        "thscode": "000688.SH",
+        "name": "科创50",
+        "asset_type": "a-share-index"
+      }
+    ],
+    "checked_at_utc": "2026-10-27T22:03:18.1805456+00:00",
+    "identity_code": 0,
+    "history_http_status": 200
+  }
+]

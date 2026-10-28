@@ -1,0 +1,285 @@
+{
+  "directory": ".cache/value-probe-2026-10-28T04-26-06-739Z",
+  "results": [
+    {
+      "type": "income-statements",
+      "period": "annual",
+      "http": 200,
+      "code": 0,
+      "message": "success",
+      "count": 16,
+      "fields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "operating_income",
+        "operating_costs",
+        "operating_expenses",
+        "sales_fee",
+        "manage_fee",
+        "research_and_development_expenses",
+        "operating_profit",
+        "interest_expenses",
+        "profit_total",
+        "income_tax_expense",
+        "net_profit",
+        "parent_holder_net_profit",
+        "basic_eps"
+      ],
+      "periods": [
+        {
+          "year": 2025,
+          "quarter": "FY",
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1776355200000
+        },
+        {
+          "year": 2024,
+          "quarter": "FY",
+          "period_end_ms": 1735574400000,
+          "report_date_ms": 1776355200000
+        },
+        {
+          "year": 2023,
+          "quarter": "FY",
+          "period_end_ms": 1703952000000,
+          "report_date_ms": 1743609600000
+        }
+      ]
+    },
+    {
+      "type": "income-statements",
+      "period": "quarterly",
+      "http": 200,
+      "code": 0,
+      "message": "success",
+      "count": 16,
+      "fields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "operating_income",
+        "operating_costs",
+        "operating_expenses",
+        "sales_fee",
+        "manage_fee",
+        "research_and_development_expenses",
+        "operating_profit",
+        "interest_expenses",
+        "profit_total",
+        "income_tax_expense",
+        "net_profit",
+        "parent_holder_net_profit",
+        "basic_eps"
+      ],
+      "periods": [
+        {
+          "year": 2026,
+          "quarter": "Q2",
+          "period_end_ms": 1782748800000,
+          "report_date_ms": 1786723200000
+        },
+        {
+          "year": 2026,
+          "quarter": "Q1",
+          "period_end_ms": 1774886400000,
+          "report_date_ms": 1777046400000
+        },
+        {
+          "year": 2025,
+          "quarter": "Q4",
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1776355200000
+        }
+      ]
+    },
+    {
+      "type": "balance-sheets",
+      "period": "annual",
+      "http": 200,
+      "code": 0,
+      "message": "success",
+      "count": 16,
+      "fields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "assets_total",
+        "total_current_assets",
+        "non_current_nets_total",
+        "cash",
+        "accounts_receivable",
+        "total_debt",
+        "holder_equity_total"
+      ],
+      "periods": [
+        {
+          "year": 2025,
+          "quarter": "FY",
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1786723200000
+        },
+        {
+          "year": 2024,
+          "quarter": "FY",
+          "period_end_ms": 1735574400000,
+          "report_date_ms": 1776355200000
+        },
+        {
+          "year": 2023,
+          "quarter": "FY",
+          "period_end_ms": 1703952000000,
+          "report_date_ms": 1743609600000
+        }
+      ]
+    },
+    {
+      "type": "balance-sheets",
+      "period": "quarterly",
+      "http": 200,
+      "code": 0,
+      "message": "success",
+      "count": 16,
+      "fields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "assets_total",
+        "total_current_assets",
+        "non_current_nets_total",
+        "cash",
+        "accounts_receivable",
+        "total_debt",
+        "holder_equity_total"
+      ],
+      "periods": [
+        {
+          "year": 2026,
+          "quarter": "Q2",
+          "period_end_ms": 1782748800000,
+          "report_date_ms": 1786723200000
+        },
+        {
+          "year": 2026,
+          "quarter": "Q1",
+          "period_end_ms": 1774886400000,
+          "report_date_ms": 1777046400000
+        },
+        {
+          "year": 2025,
+          "quarter": "Q4",
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1786723200000
+        }
+      ]
+    },
+    {
+      "type": "cash-flow-statements",
+      "period": "annual",
+      "http": 200,
+      "code": 0,
+      "message": "success",
+      "count": 16,
+      "fields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "act_cash_flow_net",
+        "invest_cash_flow_net",
+        "financing_cash_flow_net",
+        "pay_fixed_assets_etc_cash",
+        "pay_dividends_profits_interest_cash",
+        "cash_equivalents_net_addition"
+      ],
+      "periods": [
+        {
+          "year": 2025,
+          "quarter": "FY",
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1776355200000
+        },
+        {
+          "year": 2024,
+          "quarter": "FY",
+          "period_end_ms": 1735574400000,
+          "report_date_ms": 1776355200000
+        },
+        {
+          "year": 2023,
+          "quarter": "FY",
+          "period_end_ms": 1703952000000,
+          "report_date_ms": 1743609600000
+        }
+      ]
+    },
+    {
+      "type": "cash-flow-statements",
+      "period": "quarterly",
+      "http": 200,
+      "code": 0,
+      "message": "success",
+      "count": 16,
+      "fields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "act_cash_flow_net",
+        "invest_cash_flow_net",
+        "financing_cash_flow_net",
+        "pay_fixed_assets_etc_cash",
+        "pay_dividends_profits_interest_cash",
+        "cash_equivalents_net_addition"
+      ],
+      "periods": [
+        {
+          "year": 2026,
+          "quarter": "Q2",
+          "period_end_ms": 1782748800000,
+          "report_date_ms": 1786723200000
+        },
+        {
+          "year": 2026,
+          "quarter": "Q1",
+          "period_end_ms": 1774886400000,
+          "report_date_ms": 1777046400000
+        },
+        {
+          "year": 2025,
+          "quarter": "Q4",
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1776355200000
+        }
+      ]
+    }
+  ]
+}

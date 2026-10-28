@@ -1,0 +1,10 @@
+{
+  "started_at_utc": "2026-10-27T21:13:10.372353+00:00",
+  "method": "list_tools(\"stock\")",
+  "runtime": "3.13.6",
+  "skill_version": "1.5.0",
+  "credential_configured": true,
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='api-mcp.51ifind.com', port=8643): Read timed out. (read timeout=10)",
+  "completed_at_utc": "2026-10-27T21:13:21.725825+00:00"
+}

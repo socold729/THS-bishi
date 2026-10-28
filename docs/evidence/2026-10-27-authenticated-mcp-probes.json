@@ -1,0 +1,106 @@
+[
+  {
+    "id": "AUTH-009",
+    "started_at_utc": "2026-10-27T21:05:10.3150511+00:00",
+    "method": "POST",
+    "url": "https://fuyao.aicubes.cn/mcp/a-share",
+    "rpc_method": "initialize",
+    "credentials_sent": true,
+    "http_status": 200,
+    "rpc_error": null,
+    "business_code": null,
+    "request_id": null,
+    "item_count": null,
+    "metadata": {
+      "protocol_version": "2025-03-26",
+      "server_info": {
+        "name": "fuyao-a-share-mcp",
+        "version": "1.0.0"
+      }
+    }
+  },
+  {
+    "id": "AUTH-010",
+    "started_at_utc": "2026-10-27T21:05:11.4440392+00:00",
+    "method": "POST",
+    "url": "https://fuyao.aicubes.cn/mcp/a-share",
+    "rpc_method": "notifications/initialized",
+    "credentials_sent": true,
+    "http_status": 200,
+    "rpc_error": null,
+    "business_code": null,
+    "request_id": null,
+    "item_count": null,
+    "metadata": {}
+  },
+  {
+    "id": "AUTH-011",
+    "started_at_utc": "2026-10-27T21:05:12.1794430+00:00",
+    "method": "POST",
+    "url": "https://fuyao.aicubes.cn/mcp/a-share",
+    "rpc_method": "tools/list",
+    "credentials_sent": true,
+    "http_status": 200,
+    "rpc_error": null,
+    "business_code": null,
+    "request_id": null,
+    "item_count": null,
+    "metadata": {
+      "tool_count": 21,
+      "tool_names": [
+        "get_a_share_prices_snapshot",
+        "get_a_share_prices_historical",
+        "get_a_share_corporate_actions_adjustment_factors",
+        "get_a_share_financials_income_statements",
+        "get_a_share_financials_balance_sheets",
+        "get_a_share_financials_cash_flow_statements",
+        "get_a_share_financials_indicators",
+        "get_a_share_valuations_snapshot",
+        "get_a_share_calendar_trading_days",
+        "get_a_share_special_data_limit_up_pool",
+        "get_a_share_special_data_limit_down_pool",
+        "get_a_share_special_data_limit_break_pool",
+        "get_a_share_special_data_limit_up_ladder",
+        "get_a_share_special_data_anomaly_analysis_stock",
+        "get_a_share_special_data_skyrocket_list",
+        "get_a_share_special_data_hot_stock_list",
+        "get_a_share_special_data_hot_stock_list_history",
+        "get_a_share_special_data_hot_stock_rank_trend",
+        "get_a_share_special_data_dragon_tiger_list",
+        "get_a_share_auction_snapshot",
+        "get_a_share_auction_short_term_benchmark"
+      ]
+    }
+  },
+  {
+    "id": "AUTH-012",
+    "started_at_utc": "2026-10-27T21:05:13.1663130+00:00",
+    "method": "POST",
+    "url": "https://fuyao.aicubes.cn/mcp/a-share",
+    "rpc_method": "tools/call",
+    "credentials_sent": true,
+    "http_status": 200,
+    "rpc_error": null,
+    "business_code": 0,
+    "request_id": "f32216bdc4274b81b31e83aa3fec8eb1",
+    "item_count": 1,
+    "metadata": {
+      "timestamp": 1793135112000,
+      "first_item_thscode": "600519.SH",
+      "message": "success",
+      "first_item_fields": [
+        "thscode",
+        "price_change",
+        "prev_price",
+        "high_price",
+        "low_price",
+        "open_price",
+        "volume",
+        "last_price",
+        "turnover",
+        "price_change_ratio_pct",
+        "ticker"
+      ]
+    }
+  }
+]

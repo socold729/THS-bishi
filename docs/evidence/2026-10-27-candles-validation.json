@@ -1,0 +1,45 @@
+{
+  "recorded_at_utc": "2026-10-27T22:10:36.3108768+00:00",
+  "screenshots_reviewed": [
+    "desktop1440",
+    "mobile390"
+  ],
+  "unit_tests_failed": 0,
+  "development_url": "http://127.0.0.1:3000",
+  "browser_tests": [
+    {
+      "title": "configuration persists; failed data never shows a normal report (simulated failure)",
+      "duration_ms": 664,
+      "ok": true,
+      "status": "passed"
+    },
+    {
+      "title": "real provider dashboard, evidence, symbol add/remove, and responsive layout",
+      "duration_ms": 15482,
+      "ok": true,
+      "status": "passed"
+    },
+    {
+      "title": "strategy routes actually return different provider datasets",
+      "duration_ms": 29354,
+      "ok": true,
+      "status": "passed"
+    }
+  ],
+  "production_build_exit_code": 0,
+  "change": "limit counts header / four real indices / OHLC candlestick chart",
+  "index_verification": "2026-10-27-four-index-verification.json",
+  "browser_stats": {
+    "startTime": "2026-10-27T22:08:31.925Z",
+    "duration": 47512.099,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "typecheck_exit_code": 0,
+  "unit_tests_passed": 33,
+  "financial_data_source": "real Fuyao API, not screenshot values",
+  "development_page_http_status": 200,
+  "star_market_benchmark": "000688.SH 科创50"
+}

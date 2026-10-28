@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-10-28T03:51:22.801Z",
+  "runId": "2026-10-28T03-51-22-796Z",
+  "taskAttempted": true,
+  "modelCallSucceeded": true,
+  "evidenceValidationPassed": true,
+  "httpStatus": 200,
+  "status": "completed",
+  "model": "gpt-6.1-sol",
+  "date": "2026-10-27",
+  "evidenceCount": 36,
+  "reportPath": ".cache/ai-live-2026-10-28T03-51-22-796Z/report.json"
+}

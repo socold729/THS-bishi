@@ -1,0 +1,9 @@
+{
+  "overall_timeout_ms": 50000,
+  "runtime": "Node.js v24.22.1",
+  "ok": false,
+  "note": "Temporary wrapper timed out before library returned. No successful tool list or financial query is inferred.",
+  "error": "SELFCHECK_ERROR: overall timeout",
+  "recorded_at_utc": "2026-10-27T21:13:30.0996055+00:00",
+  "method": "listTools(\"stock\")"
+}

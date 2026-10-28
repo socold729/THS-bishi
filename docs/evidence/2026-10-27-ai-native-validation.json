@@ -1,0 +1,72 @@
+{
+  "recordedAtUtc": "2026-10-28T02:49:55.9436227+00:00",
+  "fullBrowserEarlierInThisStage": {
+    "startTime": "2026-10-28T02:33:13.081Z",
+    "duration": 98664.053,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "developmentHttpStatus": 200,
+  "shortDataEvidenceCountsInOrder": [
+    3,
+    38,
+    2
+  ],
+  "developmentUrl": "http://127.0.0.1:3000",
+  "semanticLimit": "References and field values are programmatically checked. Interpretations remain unverified; rule filters do not prove full semantic compliance.",
+  "liveModelAttempted": false,
+  "typecheckExitCode": 0,
+  "finalTargetedBrowser": {
+    "startTime": "2026-10-28T02:48:56.521Z",
+    "duration": 4102.468,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "financialFreshnessMaxLatestAnnualPeriodAgeDays": 732,
+  "latestShortCheckHadCoreStrategyData": false,
+  "realFinancialFirstDatasetCounts": [
+    {
+      "style": "short",
+      "evidenceCount": 3
+    },
+    {
+      "style": "swing",
+      "evidenceCount": 98
+    },
+    {
+      "style": "value",
+      "evidenceCount": 16
+    }
+  ],
+  "actualMissingKeyRoute": {
+    "httpStatus": 200,
+    "status": "failed",
+    "errorCode": "OPENAI_NOT_CONFIGURED"
+  },
+  "baselineUnitPassed": 51,
+  "finalUnitPassed": 76,
+  "strictStrategyGateAdded": true,
+  "publicDeploymentPerformed": false,
+  "productionBuildExitCode": 0,
+  "durableReportsHistoryFeedbackImplemented": false,
+  "newReportUnitTests": 25,
+  "screenshotsReviewed": [
+    "mingri-ai-report-mock-desktop.png",
+    "mingri-ai-report-mock-mobile.png"
+  ],
+  "baselineBrowser": {
+    "startTime": "2026-10-28T02:22:54.65Z",
+    "duration": 14395.033,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "liveModelSucceeded": false,
+  "liveModelBlocker": "OPENAI_API_KEY not configured",
+  "mockExamplesOnly": true
+}

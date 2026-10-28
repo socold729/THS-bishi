@@ -1,0 +1,117 @@
+{
+  "final_browser_stats": {
+    "startTime": "2026-10-28T00:07:07.937Z",
+    "duration": 76422.704,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "initial_browser_stats": {
+    "startTime": "2026-10-28T00:03:10.955Z",
+    "duration": 85609.393,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  },
+  "scope": "descending ladder and same-day topics; expanded monthly calendar; synchronized daily notes",
+  "topics_matched_in_verified_sample": 12,
+  "screenshots_reviewed": [
+    "1440 desktop",
+    "390 mobile"
+  ],
+  "recorded_at_utc": "2026-10-27T20:09:46.2341622-04:00",
+  "note_saving": "synchronous, no delayed cross-date save",
+  "real_market_test_changes_calendar_date": true,
+  "topic_source": "same-day limit-up-pool.limit_up_reason joined by thscode",
+  "index_request_concurrency": 2,
+  "production_build_exit_code": 0,
+  "development_page_http_status": 200,
+  "browser_tests": [
+    {
+      "status": "passed",
+      "duration_ms": 928,
+      "passed": true,
+      "title": "monthly calendar and both date-keyed note editors synchronize and persist"
+    },
+    {
+      "status": "passed",
+      "duration_ms": 603,
+      "passed": true,
+      "title": "notes also synchronize between browser tabs"
+    },
+    {
+      "status": "passed",
+      "duration_ms": 370,
+      "passed": true,
+      "title": "failed persistence keeps the draft and explicitly reports the failure"
+    },
+    {
+      "status": "passed",
+      "duration_ms": 440,
+      "passed": true,
+      "title": "configuration persists; failed data never shows a normal report (simulated failure)"
+    },
+    {
+      "status": "passed",
+      "duration_ms": 27587,
+      "passed": true,
+      "title": "real provider dashboard, evidence, symbol add/remove, and responsive layout"
+    },
+    {
+      "status": "passed",
+      "duration_ms": 44551,
+      "passed": true,
+      "title": "strategy routes actually return different provider datasets"
+    }
+  ],
+  "notes_targeted_recheck": {
+    "startTime": "2026-10-28T00:05:15.078Z",
+    "duration": 4041.101,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "development_url": "http://127.0.0.1:3000",
+  "note_storage": "browser localStorage, separate key per date, no server upload",
+  "not_implemented": [
+    "cloud note sync",
+    "AI report generation"
+  ],
+  "topic_verification_file": "2026-10-27-ladder-topic-verification.json",
+  "notes_tests_use_explicit_unavailable_market_fixture": true,
+  "unit_tests": {
+    "failed": 0,
+    "passed": 46
+  },
+  "initial_failures": [
+    "test helper checked first-use UI before hydration; fixed by waiting for a visible landing state",
+    "alert assertion matched Next.js route announcer as well; fixed by filtering actual save-error text",
+    "real swing integration did not return stock-history evidence in first run; later diagnostic succeeded in 33302ms, close to budget"
+  ],
+  "typecheck_exit_code": 0,
+  "appended_document_integrity": [
+    {
+      "prefix_unchanged": true,
+      "path": "docs/tests/测试记录.md"
+    },
+    {
+      "prefix_unchanged": true,
+      "path": "docs/logs/开发日志.md"
+    },
+    {
+      "prefix_unchanged": true,
+      "path": "docs/architecture/第二阶段-MVP架构与范围.md"
+    },
+    {
+      "prefix_unchanged": true,
+      "path": "docs/api/接口验证记录.md"
+    },
+    {
+      "prefix_unchanged": true,
+      "path": "docs/logs/AI使用与验证记录.md"
+    }
+  ]
+}

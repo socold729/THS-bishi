@@ -1,0 +1,7 @@
+{
+  "recordedAt": "2026-10-28T04:11:50.157Z",
+  "method": "official listTools(stock)",
+  "passed": false,
+  "error": "read ECONNRESET",
+  "completedAt": "2026-10-28T04:12:23.421Z"
+}

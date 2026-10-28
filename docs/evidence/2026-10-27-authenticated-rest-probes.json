@@ -1,0 +1,302 @@
+[
+  {
+    "id": "AUTH-001",
+    "started_at_utc": "2026-10-27T21:04:20.6972933+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/meta/tickers/search?q=600519.SH",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "5a152b98c84c497384c9d5e59df4b24d",
+    "data_fields": [
+      "timestamp",
+      "item"
+    ],
+    "item_count": 1,
+    "first_item_fields": [
+      "thscode",
+      "ticker",
+      "name",
+      "exchange",
+      "asset_type",
+      "currency",
+      "list_date",
+      "end_date",
+      "last_trade_date",
+      "last_delivery_date"
+    ],
+    "metadata": {
+      "timestamp": 1793088024833,
+      "first_item_identity_time": {
+        "thscode": "600519.SH",
+        "currency": "CNY"
+      },
+      "null_fields": [
+        "list_date",
+        "end_date",
+        "last_trade_date",
+        "last_delivery_date"
+      ]
+    },
+    "transport_error": null
+  },
+  {
+    "id": "AUTH-002",
+    "started_at_utc": "2026-10-27T21:04:22.6694584+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share/prices/snapshot?thscodes=600519.SH",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "ee3f0406d8f24e03b1b798f4828412a2",
+    "data_fields": [
+      "timestamp",
+      "total",
+      "item"
+    ],
+    "item_count": 1,
+    "first_item_fields": [
+      "thscode",
+      "ticker",
+      "volume",
+      "turnover",
+      "last_price",
+      "price_change",
+      "price_change_ratio_pct",
+      "open_price",
+      "high_price",
+      "low_price",
+      "prev_price"
+    ],
+    "metadata": {
+      "timestamp": 1793135062000,
+      "total": 1,
+      "first_item_identity_time": {
+        "thscode": "600519.SH"
+      },
+      "null_fields": []
+    },
+    "transport_error": null
+  },
+  {
+    "id": "AUTH-003",
+    "started_at_utc": "2026-10-27T21:04:23.4184694+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "e02e311530924c0e96051a68e8814a9c",
+    "data_fields": [
+      "timestamp",
+      "item"
+    ],
+    "item_count": 243,
+    "first_item_fields": [
+      "date_ms",
+      "date"
+    ],
+    "metadata": {
+      "timestamp": 1793135064066,
+      "first_item_identity_time": {
+        "date": "20251028",
+        "date_ms": 1761580800000
+      },
+      "null_fields": []
+    },
+    "transport_error": null
+  },
+  {
+    "id": "AUTH-004",
+    "started_at_utc": "2026-10-27T21:04:24.2142423+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600519.SH&interval=1d&start=1792425600000&end=1793030400000&adjust=none",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "db9fc206c7714af685b7b27e610746ca",
+    "data_fields": [
+      "timestamp",
+      "item",
+      "thscode",
+      "interval",
+      "adjust"
+    ],
+    "item_count": 6,
+    "first_item_fields": [
+      "date_ms",
+      "volume",
+      "turnover",
+      "open_price",
+      "high_price",
+      "low_price",
+      "close_price"
+    ],
+    "metadata": {
+      "timestamp": 1793030400000,
+      "interval": "1d",
+      "first_item_identity_time": {
+        "date_ms": 1792425600000
+      },
+      "thscode": "600519.SH",
+      "null_fields": []
+    },
+    "transport_error": null
+  },
+  {
+    "id": "AUTH-005",
+    "started_at_utc": "2026-10-27T21:04:24.9811254+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share/valuations/snapshot?thscodes=600519.SH",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "25c0dbf34ed34497af02659b0bf28064",
+    "data_fields": [
+      "timestamp",
+      "total",
+      "item"
+    ],
+    "item_count": 1,
+    "first_item_fields": [
+      "thscode",
+      "ticker",
+      "name",
+      "pe_ttm",
+      "pe_mrq",
+      "pb_mrq",
+      "ps_ttm",
+      "pcf_ttm"
+    ],
+    "metadata": {
+      "timestamp": 1793135065000,
+      "total": 1,
+      "first_item_identity_time": {
+        "thscode": "600519.SH"
+      },
+      "null_fields": []
+    },
+    "transport_error": null
+  },
+  {
+    "id": "AUTH-006",
+    "started_at_utc": "2026-10-27T21:04:25.6996645+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=600519.SH&period=annual&limit=1",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "969e3e6c55b144078193a89030430c57",
+    "data_fields": [
+      "timestamp",
+      "item"
+    ],
+    "item_count": 1,
+    "first_item_fields": [
+      "thscode",
+      "ticker",
+      "period",
+      "fiscal_year",
+      "fiscal_period",
+      "report_date_ms",
+      "period_end_ms",
+      "currency",
+      "operating_income",
+      "operating_costs",
+      "operating_expenses",
+      "sales_fee",
+      "manage_fee",
+      "research_and_development_expenses",
+      "operating_profit",
+      "interest_expenses",
+      "profit_total",
+      "income_tax_expense",
+      "net_profit",
+      "parent_holder_net_profit",
+      "basic_eps"
+    ],
+    "metadata": {
+      "timestamp": 1767110400000,
+      "first_item_identity_time": {
+        "thscode": "600519.SH",
+        "currency": "CNY"
+      },
+      "null_fields": []
+    },
+    "transport_error": null
+  },
+  {
+    "id": "AUTH-007",
+    "started_at_utc": "2026-10-27T21:04:26.6089716+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/prices/snapshot?thscodes=000300.SH",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "9cb9fb1874704c5c9a6137dced72f7db",
+    "data_fields": [
+      "timestamp",
+      "total",
+      "item"
+    ],
+    "item_count": 1,
+    "first_item_fields": [
+      "thscode",
+      "ticker",
+      "volume",
+      "turnover",
+      "last_price",
+      "price_change",
+      "price_change_ratio_pct",
+      "open_price",
+      "high_price",
+      "low_price",
+      "prev_price"
+    ],
+    "metadata": {
+      "timestamp": 1793135067000,
+      "total": 1,
+      "first_item_identity_time": {
+        "thscode": "000300.SH"
+      },
+      "null_fields": []
+    },
+    "transport_error": null
+  },
+  {
+    "id": "AUTH-008",
+    "started_at_utc": "2026-10-27T21:04:27.3783715+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/constituents/ths-stock-list?thscode=000300.SH",
+    "credentials_sent": true,
+    "http_status": 200,
+    "business_code": 0,
+    "message": "success",
+    "request_id": "66aad319b83844ffbe4cc671583e62b1",
+    "data_fields": [
+      "timestamp",
+      "item"
+    ],
+    "item_count": 300,
+    "first_item_fields": [
+      "thscode",
+      "ticker",
+      "name"
+    ],
+    "metadata": {
+      "timestamp": 1793135068142,
+      "first_item_identity_time": {
+        "thscode": "601077.SH"
+      },
+      "null_fields": []
+    },
+    "transport_error": null
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "browser_stats": {
+    "startTime": "2026-10-28T00:19:01.016Z",
+    "duration": 14959.340999999999,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "status": "passed",
+      "passed": true,
+      "duration_ms": 11042,
+      "title": "Mingri Youzi has a compact calendar, wrapping stock tiles, and preserved notes"
+    },
+    {
+      "status": "passed",
+      "passed": true,
+      "duration_ms": 837,
+      "title": "monthly calendar and both date-keyed note editors synchronize and persist"
+    },
+    {
+      "status": "passed",
+      "passed": true,
+      "duration_ms": 717,
+      "title": "notes also synchronize between browser tabs"
+    },
+    {
+      "status": "passed",
+      "passed": true,
+      "duration_ms": 450,
+      "title": "failed persistence keeps the draft and explicitly reports the failure"
+    }
+  ],
+  "production_build_exit_code": 0,
+  "desktop_calendar_height_le_340px": true,
+  "mobile_horizontal_overflow": false,
+  "product_name": "明日游资",
+  "package_name": "mingri-youzi",
+  "stock_tiles_parallel_desktop_and_mobile": true,
+  "financial_logic_changed": false,
+  "screenshots_reviewed": [
+    "mingri-youzi-compact-desktop.png",
+    "mingri-youzi-compact-mobile.png"
+  ],
+  "unit_tests_rerun_this_turn": false,
+  "development_url": "http://127.0.0.1:3000",
+  "recorded_at_utc": "2026-10-28T00:20:35.1045784+00:00",
+  "old_storage_keys_preserved": true,
+  "typecheck_exit_code": 0
+}

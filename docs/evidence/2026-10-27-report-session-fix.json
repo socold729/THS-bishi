@@ -1,0 +1,48 @@
+{
+  "productionBuildExitCode": 0,
+  "newUnitTests": 6,
+  "invalidStoredSessionRecovered": true,
+  "recordedAtUtc": "2026-10-28T03:24:26.4432061+00:00",
+  "untrustedOriginsStillRejected": true,
+  "liveModelCallsThisTurn": 0,
+  "afterActualAddressChecks": [
+    {
+      "url": "http://127.0.0.1:3000/api/reports",
+      "origin": "http://127.0.0.1:3000",
+      "status": 400,
+      "body": {
+        "error": "复盘日期、策略或自选股参数无效。"
+      }
+    },
+    {
+      "url": "http://localhost:3000/api/reports",
+      "origin": "http://localhost:3000",
+      "status": 400,
+      "body": {
+        "error": "复盘日期、策略或自选股参数无效。"
+      }
+    }
+  ],
+  "beforeNumericAddress": {
+    "host": "127.0.0.1:3000",
+    "origin": "http://127.0.0.1:3000",
+    "status": 403,
+    "body": {
+      "error": "复盘会话无效，请刷新页面。"
+    }
+  },
+  "body": "{} intentionally fails business validation to avoid model or finance calls",
+  "typecheckExitCode": 0,
+  "personalNotesAndPreferencesPreserved": true,
+  "rawBrowserReport": ".cache/report-session-browser.json",
+  "cause": "Origin compared against Next internal hostname rather than HTTP destination Host",
+  "browserStats": {
+    "startTime": "2026-10-28T03:21:52.668Z",
+    "duration": 7465.601,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "unitTestsPassed": 82
+}

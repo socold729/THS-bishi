@@ -1,0 +1,35 @@
+{
+  "recordedAt": "2026-10-28T04:56:25.014Z",
+  "privateDirectory": ".cache/value-ai-live-2026-10-28T04-56-25-010Z",
+  "kind": "real-provider-real-model-integration",
+  "demonstrationCondition": true,
+  "httpStatus": 200,
+  "status": "completed",
+  "durationMs": 76034,
+  "model": "gpt-6.1-sol",
+  "modelSucceeded": true,
+  "serverValidationPassed": true,
+  "date": "2026-10-27",
+  "style": "value",
+  "symbols": [
+    "600519.SH"
+  ],
+  "providedEvidence": 31,
+  "citedEvidence": 16,
+  "claims": 15,
+  "facts": 5,
+  "inferences": 4,
+  "uncertainties": 6,
+  "observations": 2,
+  "partial": true,
+  "limitations": [
+    "贵州茅台 公告片段：iFinD连接超时、中断或本次等待已取消，未使用替代数据。",
+    "贵州茅台 历史估值：iFinD连接超时、中断或本次等待已取消，未使用替代数据。",
+    "公告覆盖范围：公告为检索片段而非完整目录/全文；未返回记录不能说明没有重要新变化。",
+    "贵州茅台：季度按相同报告期同比；未确认单季/累计口径前不计算环比。财务过滤不保证供应商修订版本的历史还原。",
+    "贵州茅台：iFinD连接超时、中断或本次等待已取消，未使用替代数据。",
+    "贵州茅台：本次检索0条相关公告片段，其中0条日期等于所选日；检索非全量，不能据此宣称没有重要新变化。",
+    "财务仅使用截至所选日已披露的报表，季度同比按同一报告期比较，不混算单季与累计值。最新估值快照不进入历史分析；历史估值仅比较实际返回的指定时点。公告仅为相关片段，未独立核验全文，不作重要变化完整性结论。"
+  ],
+  "privateReportPath": ".cache/value-ai-live-2026-10-28T04-56-25-010Z/report.md"
+}

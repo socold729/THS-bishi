@@ -1,0 +1,31 @@
+{
+  "recordedAt": "2026-10-28T15:54:58.799Z",
+  "traces": [
+    {
+      "userAgent": "mingri-youzi",
+      "phases": [
+        {
+          "method": "initialize",
+          "startedAt": "2026-10-28T15:54:18.780Z",
+          "error": "AbortError",
+          "code": "ABORT_ERR"
+        }
+      ],
+      "ok": false,
+      "reason": "iFinD连接超时、中断或本次等待已取消，未使用替代数据。"
+    },
+    {
+      "userAgent": "codex",
+      "phases": [
+        {
+          "method": "initialize",
+          "startedAt": "2026-10-28T15:54:38.797Z",
+          "error": "AbortError",
+          "code": "ABORT_ERR"
+        }
+      ],
+      "ok": false,
+      "reason": "iFinD连接超时、中断或本次等待已取消，未使用替代数据。"
+    }
+  ]
+}

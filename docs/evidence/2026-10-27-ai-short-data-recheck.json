@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-28T02:39:55.866Z",
+  "date": "2026-10-27",
+  "style": "short",
+  "status": "partial",
+  "evidenceCount": 38,
+  "fields": [
+    "close",
+    "change",
+    "limit-up-pool",
+    "limit-down-pool",
+    "sample-max-height",
+    "previous-sample-height",
+    "sample-height-change",
+    "board-height",
+    "supplier-topic",
+    "topic-sample-count"
+  ],
+  "previousLadderDate": "2026-10-26",
+  "limitations": [
+    "全市场宽度 / 热点题材：尚未完成全市场行情分页与板块归因，暂不计算涨跌家数、情绪分数或题材强度。",
+    "涨跌停家数为供应商股票池口径；没有全市场涨跌宽度。题材词频仅描述涨停池样本，不能证明上涨原因或板块强弱。"
+  ]
+}

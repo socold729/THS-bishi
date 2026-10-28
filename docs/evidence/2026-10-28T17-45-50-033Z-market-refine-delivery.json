@@ -1,0 +1,136 @@
+{
+  "recordedAt": "2026-10-28T17:45:50.034Z",
+  "kind": "five-market-refinements-delivery",
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "units": {
+    "passed": 140,
+    "failed": 0,
+    "constructedInputs": true
+  },
+  "browser": {
+    "startTime": "2026-10-28T17:41:12.129Z",
+    "duration": 110112.31999999999,
+    "expected": 19,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "firstRealProductCall": {
+    "recordedAt": "2026-10-28T17:36:10.909Z",
+    "kind": "real-product-endpoints-and-real-model",
+    "privateDirectory": ".cache/market-refine-live-2026-10-28T17-36-10-908Z",
+    "valueOverview": {
+      "elapsedMs": 70124,
+      "status": "partial",
+      "indices": [
+        {
+          "code": "000001.SH",
+          "closeAvailable": true
+        },
+        {
+          "code": "399001.SZ",
+          "closeAvailable": true
+        },
+        {
+          "code": "399006.SZ",
+          "closeAvailable": true
+        },
+        {
+          "code": "000680.SH",
+          "closeAvailable": true
+        }
+      ],
+      "limits": [
+        {
+          "id": "limit-up-pool",
+          "available": true
+        },
+        {
+          "id": "limit-down-pool",
+          "available": true
+        }
+      ],
+      "financialRows": 4
+    },
+    "anomalies": {
+      "elapsedMs": 20886,
+      "status": "partial",
+      "candidateCount": 30,
+      "checkedCount": 27,
+      "alertCount": 1,
+      "allConditional": true
+    },
+    "model": {
+      "http": 200,
+      "status": "failed",
+      "errorCode": "CITATION_INVALID",
+      "error": "AI 引用了不存在的证据，报告已拦截。",
+      "elapsedMs": 35172,
+      "hasUnwantedTopicPhrase": false,
+      "hasGenericTrendCaution": false
+    }
+  },
+  "finalRealModel": {
+    "recordedAt": "2026-10-28T17:41:33.842Z",
+    "kind": "real-financial-and-model-product-call",
+    "privateDirectory": ".cache/market-refine-model-2026-10-28T17-40-59-738Z",
+    "http": 200,
+    "status": "completed",
+    "elapsedMs": 34103,
+    "model": "gpt-6.1-sol",
+    "evidenceCount": 177,
+    "absoluteLiquidityEvidence": 60,
+    "liquidityClaims": 1,
+    "hasVolumeRatio": false,
+    "hasUnwantedTopicPhrase": false,
+    "hasGenericTrendCaution": false,
+    "partial": true
+  },
+  "logsAppendIntegrity": [
+    {
+      "file": "docs/logs/开发日志.md",
+      "previousSha256": "d0c7bbe8046d10ccfaf8601067347b354303f3ca2d213028c23f7c58ca63e2c1",
+      "previousBytes": 34338,
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/logs/AI使用与验证记录.md",
+      "previousSha256": "983648b675f7064e3672fe5a94c1c268accc464797fa5dbc8b77cdb588267980",
+      "previousBytes": 24033,
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/api/接口验证记录.md",
+      "previousSha256": "60343756fed8567e68b9ba66a4bb70c9bdb44300753f95eba9cb538f67c140e9",
+      "previousBytes": 24606,
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/tests/测试记录.md",
+      "previousSha256": "e8d4e75e704fb27d9a46b6ca1652c57aa79b7765e6df53d8903dc042944f070f",
+      "previousBytes": 29778,
+      "originalPrefixPreserved": true
+    },
+    {
+      "file": "docs/README.md",
+      "previousSha256": "1869dc527fd443d1f7a9eb89665cd6c164b8464fc9df1716db9ad0cd7421ebd4",
+      "previousBytes": 4203,
+      "originalPrefixPreserved": true
+    }
+  ],
+  "credentialScan": {
+    "configuredNamesChecked": [
+      "FUYAO_API_KEY",
+      "IFIND_MCP_KEY",
+      "OPENAI_API_KEY"
+    ],
+    "filesScanned": 220,
+    "matches": [],
+    "passed": true,
+    "valuesPrinted": false
+  },
+  "preview": "http://127.0.0.1:3000",
+  "regulatoryAlertLimitations": "Conditional sample screening only: <=30, benchmark next-day 0%, ordinary limits, no complete reset/next-day corporate-action verification; not full-market official alerts",
+  "publicDeployment": false
+}

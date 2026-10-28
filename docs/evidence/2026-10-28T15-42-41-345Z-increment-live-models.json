@@ -1,0 +1,49 @@
+{
+  "recordedAt": "2026-10-28T15:45:52.209Z",
+  "privateDirectory": ".cache/increment-live-2026-10-28T15-42-41-345Z",
+  "kind": "real-financial-and-real-model-custom-reviews",
+  "requests": [
+    {
+      "style": "short",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "failed",
+      "errorCode": "CAUSAL_REJECTED",
+      "error": "没有事件证据的涨跌归因已拦截。",
+      "elapsedMs": 28702,
+      "realModel": false,
+      "customSnapshotMatches": false,
+      "citedEvidenceCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T15-42-41-345Z/short-task.json",
+      "sourceEndpoints": []
+    },
+    {
+      "style": "swing",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "failed",
+      "errorCode": "COMPLIANCE_REJECTED",
+      "error": "AI 含有预测、收益承诺或交易建议，报告已拦截。",
+      "elapsedMs": 87422,
+      "realModel": false,
+      "customSnapshotMatches": false,
+      "citedEvidenceCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T15-42-41-345Z/swing-task.json",
+      "sourceEndpoints": []
+    },
+    {
+      "style": "value",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "failed",
+      "errorCode": "SUBJECT_MISMATCH",
+      "error": "AI 自选股范围不匹配，结果已拦截。",
+      "elapsedMs": 74737,
+      "realModel": false,
+      "customSnapshotMatches": false,
+      "citedEvidenceCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T15-42-41-345Z/value-task.json",
+      "sourceEndpoints": []
+    }
+  ]
+}

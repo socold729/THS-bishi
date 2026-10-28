@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-10-28T03:03:49.697Z",
+  "endpoint": "https://api.openai.com/v1/models",
+  "configuredModel": "gpt-6.1-luna",
+  "httpStatus": 200,
+  "authenticationAccepted": true,
+  "relevantModels": [
+    "gpt-4.1-mini",
+    "gpt-5.6-luna",
+    "gpt-6-luna"
+  ]
+}

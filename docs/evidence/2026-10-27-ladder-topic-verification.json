@@ -1,0 +1,73 @@
+{
+  "samples": [
+    {
+      "ladder_fields": [
+        "thscode",
+        "ticker",
+        "name",
+        "board_num",
+        "seal_nextday",
+        "sign_level"
+      ],
+      "name": "光洋股份",
+      "reason": "人形机器人+PCB+汽车零部件+“羊”字辈"
+    },
+    {
+      "ladder_fields": [
+        "thscode",
+        "ticker",
+        "name",
+        "board_num",
+        "seal_nextday",
+        "sign_level"
+      ],
+      "name": "国脉科技",
+      "reason": "AI应用+养老AI+身联网+通信服务"
+    },
+    {
+      "ladder_fields": [
+        "thscode",
+        "ticker",
+        "name",
+        "board_num",
+        "seal_nextday",
+        "sign_level"
+      ],
+      "name": "桂发祥",
+      "reason": "休闲食品+非遗麻花+全国拓展"
+    },
+    {
+      "ladder_fields": [
+        "thscode",
+        "ticker",
+        "name",
+        "board_num",
+        "seal_nextday",
+        "sign_level"
+      ],
+      "name": "沪光股份",
+      "reason": "具身智能+机器人量产+汽车线束"
+    },
+    {
+      "ladder_fields": [
+        "thscode",
+        "ticker",
+        "name",
+        "board_num",
+        "seal_nextday",
+        "sign_level"
+      ],
+      "name": "科瑞思",
+      "reason": "重大重组+光通信+磁性元器件"
+    }
+  ],
+  "ladder_request_id": "b6c69af3a7b44f56a4a6bb41bdc2eefb",
+  "matched_reason_count": 12,
+  "pool_request_id": "26da5413654741709ed13d36e0e2810d",
+  "ladder_stock_count": 12,
+  "pool_code": 0,
+  "date": "2026-10-27",
+  "checked_at_utc": "2026-10-27T23:55:56.0118343+00:00",
+  "ladder_code": 0,
+  "reason_source": "limit-up-pool.limit_up_reason"
+}

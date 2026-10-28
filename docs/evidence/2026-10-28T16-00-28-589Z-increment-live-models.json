@@ -1,0 +1,117 @@
+{
+  "recordedAt": "2026-10-28T16:03:28.397Z",
+  "privateDirectory": ".cache/increment-live-2026-10-28T16-00-28-589Z",
+  "kind": "real-financial-and-real-model-custom-reviews",
+  "requests": [
+    {
+      "style": "short",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "failed",
+      "errorCode": "INFERENCE_UNGROUNDED",
+      "error": "AI 推断缺少证据或不确定性标识。",
+      "elapsedMs": 28556,
+      "realModel": false,
+      "customSnapshotMatches": false,
+      "citedEvidenceCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T16-00-28-589Z/short-task.json",
+      "sourceEndpoints": []
+    },
+    {
+      "style": "swing",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "completed",
+      "elapsedMs": 75735,
+      "realModel": true,
+      "model": "gpt-6.1-sol",
+      "plan": {
+        "scopes": [
+          "trends",
+          "industry"
+        ],
+        "industries": [
+          "半导体",
+          "机器人"
+        ],
+        "sections": [
+          {
+            "key": "custom_1",
+            "title": "半导体：周月趋势、成交量变化与行业发展资料"
+          },
+          {
+            "key": "custom_2",
+            "title": "机器人：周月趋势、成交量变化与行业发展资料"
+          }
+        ],
+        "includeWatchlist": false,
+        "unavailable": [
+          "周K、月K及对应周期成交量的工具支持尚未确认；若无法获取，不以其他周期数据替代。",
+          "行业发展资料仅采用可靠来源；资料不足时明确说明，不补造结论。"
+        ],
+        "mode": "custom"
+      },
+      "customSnapshotMatches": true,
+      "evidenceCount": 120,
+      "citedEvidenceCount": 17,
+      "independentObservations": 0,
+      "deduplicatedCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T16-00-28-589Z/swing-task.json",
+      "partial": true,
+      "sourceEndpoints": [
+        "/api/a-share-index/prices/historical"
+      ],
+      "qoqEvidence": 0,
+      "industryEvidence": 32
+    },
+    {
+      "style": "value",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "completed",
+      "elapsedMs": 75512,
+      "realModel": true,
+      "model": "gpt-6.1-sol",
+      "plan": {
+        "scopes": [
+          "watchlist",
+          "financials",
+          "valuations",
+          "industry"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "custom_1",
+            "title": "自选股营收与归母净利润：同比及单季度环比"
+          },
+          {
+            "key": "custom_2",
+            "title": "自选股估值水平"
+          },
+          {
+            "key": "custom_3",
+            "title": "自选股所属行业发展趋势（以可核验归属为准）"
+          }
+        ],
+        "includeWatchlist": true,
+        "unavailable": [],
+        "mode": "custom"
+      },
+      "customSnapshotMatches": true,
+      "evidenceCount": 26,
+      "citedEvidenceCount": 8,
+      "independentObservations": 0,
+      "deduplicatedCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T16-00-28-589Z/value-task.json",
+      "partial": true,
+      "sourceEndpoints": [
+        "/api/a-share/financials/income-statements",
+        "/api/a-share/financials/balance-sheets",
+        "/api/a-share/financials/cash-flow-statements"
+      ],
+      "qoqEvidence": 0,
+      "industryEvidence": 0
+    }
+  ]
+}

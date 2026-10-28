@@ -1,0 +1,88 @@
+{
+  "recordedAt": "2026-10-28T17:29:33.566Z",
+  "realInterfaces": true,
+  "privateDirectory": ".cache/market-refine-2026-10-28T17-29-33-564Z",
+  "results": [
+    {
+      "name": "000002.SH",
+      "ok": true,
+      "count": 56,
+      "reason": "",
+      "fields": [
+        "date_ms",
+        "volume",
+        "turnover",
+        "open_price",
+        "high_price",
+        "low_price",
+        "close_price"
+      ]
+    },
+    {
+      "name": "399107.SZ",
+      "ok": true,
+      "count": 56,
+      "reason": "",
+      "fields": [
+        "date_ms",
+        "volume",
+        "turnover",
+        "open_price",
+        "high_price",
+        "low_price",
+        "close_price"
+      ]
+    },
+    {
+      "name": "399102.SZ",
+      "ok": true,
+      "count": 56,
+      "reason": "",
+      "fields": [
+        "date_ms",
+        "volume",
+        "turnover",
+        "open_price",
+        "high_price",
+        "low_price",
+        "close_price"
+      ]
+    },
+    {
+      "name": "000688.SH",
+      "ok": true,
+      "count": 56,
+      "reason": "",
+      "fields": [
+        "date_ms",
+        "volume",
+        "turnover",
+        "open_price",
+        "high_price",
+        "low_price",
+        "close_price"
+      ]
+    },
+    {
+      "name": "actions",
+      "ok": false,
+      "count": 0,
+      "reason": "数据服务业务错误 3002，本项未取得数据。",
+      "fields": []
+    },
+    {
+      "name": "monitor",
+      "ok": true,
+      "count": 30,
+      "reason": "",
+      "fields": [
+        "thscode",
+        "name",
+        "start_date_ms",
+        "end_date_ms",
+        "monitor_type",
+        "monitor_label"
+      ]
+    }
+  ]
+}

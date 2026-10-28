@@ -1,0 +1,374 @@
+{
+  "startedAt": "2026-10-28T04:02:16.743Z",
+  "provider": "扶摇",
+  "calls": [
+    {
+      "domain": "a-share",
+      "tool": "get_a_share_prices_snapshot",
+      "arguments": {
+        "thscodes": "600519.SH"
+      },
+      "startedAt": "2026-10-28T04:02:18.783Z",
+      "schemaRequired": [],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 0,
+      "requestId": "071f1bbd5e384795a8379a9650c48ef4",
+      "fields": [
+        "timestamp",
+        "total",
+        "item"
+      ],
+      "itemsCount": 1,
+      "total": null,
+      "interval": null,
+      "sampleDates": [
+        null
+      ],
+      "lastDate": null,
+      "firstFields": [
+        "thscode",
+        "ticker",
+        "volume",
+        "turnover",
+        "last_price",
+        "price_change",
+        "price_change_ratio_pct",
+        "open_price",
+        "high_price",
+        "low_price",
+        "prev_price"
+      ],
+      "status": "BUSINESS_SUCCESS"
+    },
+    {
+      "domain": "a-share",
+      "tool": "get_a_share_special_data_limit_up_pool",
+      "arguments": {
+        "date_ms": 1793030400000,
+        "size": 1,
+        "page": 1
+      },
+      "startedAt": "2026-10-28T04:02:19.051Z",
+      "schemaRequired": [],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 0,
+      "requestId": "ee0255341d3a4cf497b8ac3b74fee239",
+      "fields": [
+        "timestamp",
+        "pagination",
+        "item"
+      ],
+      "itemsCount": 1,
+      "total": 42,
+      "interval": null,
+      "sampleDates": [
+        null
+      ],
+      "lastDate": null,
+      "firstFields": [
+        "thscode",
+        "ticker",
+        "name",
+        "is_st",
+        "is_new",
+        "last_price",
+        "price_change_ratio_pct",
+        "limit_up_time",
+        "limit_up_reason",
+        "continue_day_text",
+        "continue_day_cnt",
+        "seal_money",
+        "max_seal_money"
+      ],
+      "status": "BUSINESS_SUCCESS"
+    },
+    {
+      "domain": "a-share",
+      "tool": "get_a_share_special_data_limit_down_pool",
+      "arguments": {
+        "date_ms": 1793030400000,
+        "size": 1,
+        "page": 1
+      },
+      "startedAt": "2026-10-28T04:02:19.312Z",
+      "schemaRequired": [],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 0,
+      "requestId": "41ea66fd3cc04f9e829f17754d568abf",
+      "fields": [
+        "timestamp",
+        "pagination",
+        "item"
+      ],
+      "itemsCount": 1,
+      "total": 23,
+      "interval": null,
+      "sampleDates": [
+        null
+      ],
+      "lastDate": null,
+      "firstFields": [
+        "thscode",
+        "ticker",
+        "name",
+        "last_price",
+        "price_change_ratio_pct",
+        "first_limit_time",
+        "last_limit_time",
+        "turnover_ratio_pct"
+      ],
+      "status": "BUSINESS_SUCCESS"
+    },
+    {
+      "domain": "a-share",
+      "tool": "get_a_share_special_data_limit_up_ladder",
+      "arguments": {},
+      "startedAt": "2026-10-28T04:02:19.568Z",
+      "schemaRequired": [],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 0,
+      "requestId": "442da46988b54494991aa3c91fe00d52",
+      "fields": [
+        "timestamp",
+        "window",
+        "item"
+      ],
+      "itemsCount": 30,
+      "total": null,
+      "interval": null,
+      "sampleDates": [
+        "2026-10-28",
+        "2026-10-27",
+        "2026-10-26"
+      ],
+      "lastDate": "2026-09-09",
+      "firstFields": [
+        "date",
+        "boards"
+      ],
+      "status": "BUSINESS_SUCCESS"
+    },
+    {
+      "domain": "a-share",
+      "tool": "get_a_share_prices_historical",
+      "arguments": {
+        "thscode": "600519.SH",
+        "interval": "1w",
+        "start": 1782835200000,
+        "end": 1793030400000,
+        "adjust": "none"
+      },
+      "startedAt": "2026-10-28T04:02:20.086Z",
+      "schemaRequired": [
+        "end",
+        "interval",
+        "start",
+        "thscode"
+      ],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 0,
+      "requestId": "6d0d4c6d64a14db28ae550dc4ff6f2c4",
+      "fields": [
+        "timestamp",
+        "item",
+        "thscode",
+        "interval",
+        "adjust"
+      ],
+      "itemsCount": 18,
+      "total": null,
+      "interval": "1w",
+      "sampleDates": [
+        1783008000000,
+        1783612800000,
+        1784217600000
+      ],
+      "lastDate": 1793116800000,
+      "firstFields": [
+        "date_ms",
+        "volume",
+        "turnover",
+        "open_price",
+        "high_price",
+        "low_price",
+        "close_price"
+      ],
+      "status": "BUSINESS_SUCCESS"
+    },
+    {
+      "domain": "a-share",
+      "tool": "get_a_share_prices_historical",
+      "arguments": {
+        "thscode": "600519.SH",
+        "interval": "1d",
+        "start": 1793030400000,
+        "end": 1793030400000,
+        "adjust": "none"
+      },
+      "startedAt": "2026-10-28T04:02:20.360Z",
+      "schemaRequired": [
+        "end",
+        "interval",
+        "start",
+        "thscode"
+      ],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 0,
+      "requestId": "4058b0f97fec4e588316fc5792c4614c",
+      "fields": [
+        "timestamp",
+        "item",
+        "thscode",
+        "interval",
+        "adjust"
+      ],
+      "itemsCount": 1,
+      "total": null,
+      "interval": "1d",
+      "sampleDates": [
+        1793030400000
+      ],
+      "lastDate": 1793030400000,
+      "firstFields": [
+        "date_ms",
+        "volume",
+        "turnover",
+        "open_price",
+        "high_price",
+        "low_price",
+        "close_price"
+      ],
+      "status": "BUSINESS_SUCCESS"
+    },
+    {
+      "domain": "a-share",
+      "tool": "get_a_share_financials_income_statements",
+      "arguments": {
+        "thscode": "600519.SH",
+        "period": "annual",
+        "limit": 1
+      },
+      "startedAt": "2026-10-28T04:02:20.629Z",
+      "schemaRequired": [
+        "period",
+        "thscode"
+      ],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 0,
+      "requestId": "adeb0bf0eca744d4b92dfff8745f7691",
+      "fields": [
+        "timestamp",
+        "item"
+      ],
+      "itemsCount": 1,
+      "total": null,
+      "interval": null,
+      "sampleDates": [
+        null
+      ],
+      "lastDate": null,
+      "firstFields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "operating_income",
+        "operating_costs",
+        "operating_expenses",
+        "sales_fee",
+        "manage_fee",
+        "research_and_development_expenses",
+        "operating_profit",
+        "interest_expenses",
+        "profit_total",
+        "income_tax_expense",
+        "net_profit",
+        "parent_holder_net_profit",
+        "basic_eps"
+      ],
+      "status": "BUSINESS_SUCCESS"
+    },
+    {
+      "domain": "a-share-index",
+      "tool": "get_a_share_index_prices_historical",
+      "arguments": {
+        "thscode": "000001.SH",
+        "interval": "1w",
+        "start": 1782835200000,
+        "end": 1793030400000
+      },
+      "startedAt": "2026-10-28T04:02:21.713Z",
+      "schemaRequired": [
+        "end",
+        "interval",
+        "start",
+        "thscode"
+      ],
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": false,
+      "businessCode": 5003,
+      "requestId": "e5db2a2a8a794ac480dd95607aff7caa",
+      "fields": [],
+      "itemsCount": null,
+      "total": null,
+      "interval": null,
+      "lastDate": null,
+      "firstFields": [],
+      "status": "FAILED"
+    }
+  ],
+  "services": [
+    {
+      "domain": "a-share",
+      "controls": [
+        {
+          "method": "initialize",
+          "http": 200,
+          "rpcError": null
+        },
+        {
+          "method": "notifications/initialized",
+          "http": 200,
+          "rpcError": null
+        }
+      ],
+      "toolCount": 21
+    },
+    {
+      "domain": "a-share-index",
+      "controls": [
+        {
+          "method": "initialize",
+          "http": 200,
+          "rpcError": null
+        },
+        {
+          "method": "notifications/initialized",
+          "http": 200,
+          "rpcError": null
+        }
+      ],
+      "toolCount": 4
+    }
+  ],
+  "completedAt": "2026-10-28T04:02:21.972Z"
+}

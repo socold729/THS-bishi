@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-10-28T03:02:12.287Z",
+  "runId": "2026-10-28T03-02-12-285Z",
+  "taskAttempted": true,
+  "modelCallSucceeded": false,
+  "evidenceValidationPassed": false,
+  "httpStatus": 200,
+  "status": "failed",
+  "errorCode": "DATA_BLOCKED",
+  "error": "金融数据请求超时或连接失败，未使用替代数据。"
+}

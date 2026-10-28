@@ -1,0 +1,120 @@
+{
+  "startedAt": "2026-10-28T03:59:03.643Z",
+  "provider": "iFinD",
+  "mode": "news",
+  "library": "official call-node.js unchanged",
+  "agentName": "codex",
+  "phases": [
+    {
+      "method": "initialize",
+      "tool": null,
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 261,
+      "rpcErrorCode": null,
+      "rpcHasResult": true
+    },
+    {
+      "method": "notifications/initialized",
+      "tool": null,
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 102,
+      "rpcErrorCode": null,
+      "rpcHasResult": true
+    },
+    {
+      "method": "tools/list",
+      "tool": null,
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 3675,
+      "rpcErrorCode": null,
+      "rpcHasResult": true,
+      "toolNames": [
+        "search_notice",
+        "search_news",
+        "search_trending_news"
+      ],
+      "toolCount": 3
+    },
+    {
+      "method": "tools/call",
+      "tool": "search_news",
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 1487,
+      "rpcErrorCode": null,
+      "rpcHasResult": true
+    },
+    {
+      "method": "tools/call",
+      "tool": "search_notice",
+      "httpStatus": 200,
+      "responseContentType": "application/json",
+      "receivedSession": true,
+      "error": null,
+      "responseBytes": 1839,
+      "rpcErrorCode": null,
+      "rpcHasResult": true
+    }
+  ],
+  "calls": [
+    {
+      "service": "news",
+      "tool": "search_news",
+      "arguments": {
+        "query": "A股市场",
+        "time_start": "2026-10-20",
+        "time_end": "2026-10-27",
+        "size": 1
+      },
+      "startedAt": "2026-10-28T03:59:03.651Z",
+      "officialCallReturned": true,
+      "wrapperOk": true,
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": null,
+      "resultKeys": [
+        "content"
+      ],
+      "contentTypes": [
+        "text"
+      ],
+      "completedAt": "2026-10-28T03:59:12.084Z"
+    },
+    {
+      "service": "news",
+      "tool": "search_notice",
+      "arguments": {
+        "query": "贵州茅台2025年年度报告",
+        "time_start": "2026-01-01",
+        "time_end": "2026-10-27",
+        "size": 1
+      },
+      "startedAt": "2026-10-28T03:59:12.086Z",
+      "officialCallReturned": true,
+      "wrapperOk": true,
+      "httpStatus": 200,
+      "rpcErrorCode": null,
+      "toolIsError": null,
+      "resultKeys": [
+        "content"
+      ],
+      "contentTypes": [
+        "text"
+      ],
+      "completedAt": "2026-10-28T03:59:12.933Z"
+    }
+  ],
+  "privateDirectory": ".cache\\mcp-audit-ifind-news-2026-10-28T03-59-03-642Z",
+  "completedAt": "2026-10-28T03:59:12.941Z"
+}

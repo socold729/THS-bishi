@@ -1,0 +1,67 @@
+[
+  {
+    "id": "API-001",
+    "started_at_utc": "2026-10-27T20:22:08.6715833+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/meta/tickers/search?q=600519.SH",
+    "credentials_sent": false,
+    "request_body": null,
+    "http_status": 200,
+    "response_content_type": "application/json",
+    "response_body": "{\"code\":2003,\"message\":\"Missing X-api-key\",\"data\":null,\"request_id\":\"17685aa9ff7b46f2bc5e06bb2147e036\"}",
+    "transport_error": null,
+    "elapsed_ms": 1510
+  },
+  {
+    "id": "API-002",
+    "started_at_utc": "2026-10-27T20:22:10.1881715+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share/prices/snapshot?thscodes=600519.SH",
+    "credentials_sent": false,
+    "request_body": null,
+    "http_status": 200,
+    "response_content_type": "application/json",
+    "response_body": "{\"code\":2003,\"message\":\"Missing X-api-key\",\"data\":null,\"request_id\":\"77c975ce31b34eff9387e70853b027dd\"}",
+    "transport_error": null,
+    "elapsed_ms": 743
+  },
+  {
+    "id": "API-003",
+    "started_at_utc": "2026-10-27T20:22:10.9328422+00:00",
+    "method": "GET",
+    "url": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+    "credentials_sent": false,
+    "request_body": null,
+    "http_status": 200,
+    "response_content_type": "application/json",
+    "response_body": "{\"code\":2003,\"message\":\"Missing X-api-key\",\"data\":null,\"request_id\":\"b9625bee280340e59e4a01e9af081248\"}",
+    "transport_error": null,
+    "elapsed_ms": 897
+  },
+  {
+    "id": "API-004",
+    "started_at_utc": "2026-10-27T20:22:11.8307641+00:00",
+    "method": "POST",
+    "url": "https://fuyao.aicubes.cn/mcp/a-share",
+    "credentials_sent": false,
+    "request_body": "{\"id\":1,\"method\":\"initialize\",\"jsonrpc\":\"2.0\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"clientInfo\":{\"name\":\"exam-preflight\",\"version\":\"0.0.0\"},\"capabilities\":{}}}",
+    "http_status": 200,
+    "response_content_type": "application/json",
+    "response_body": "{\"result\":{\"capabilities\":{\"tools\":{\"listChanged\":false}},\"serverInfo\":{\"name\":\"fuyao-a-share-mcp\",\"version\":\"1.0.0\"},\"protocolVersion\":\"2025-03-26\"},\"jsonrpc\":\"2.0\",\"id\":1}\n",
+    "transport_error": null,
+    "elapsed_ms": 920
+  },
+  {
+    "id": "API-005",
+    "started_at_utc": "2026-10-27T20:22:12.7520534+00:00",
+    "method": "POST",
+    "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-stock-mcp",
+    "credentials_sent": false,
+    "request_body": "{\"id\":1,\"method\":\"initialize\",\"jsonrpc\":\"2.0\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"clientInfo\":{\"name\":\"exam-preflight\",\"version\":\"0.0.0\"},\"capabilities\":{}}}",
+    "http_status": 401,
+    "response_content_type": "application/json",
+    "response_body": "{\"id\":1,\"jsonrpc\":\"2.0\",\"error\":{\"message\":\"Gateway authentication failed: Gateway authentication failed\",\"code\":-32001}}\n",
+    "transport_error": null,
+    "elapsed_ms": 1393
+  }
+]

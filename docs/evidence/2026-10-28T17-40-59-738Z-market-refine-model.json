@@ -1,0 +1,16 @@
+{
+  "recordedAt": "2026-10-28T17:41:33.842Z",
+  "kind": "real-financial-and-model-product-call",
+  "privateDirectory": ".cache/market-refine-model-2026-10-28T17-40-59-738Z",
+  "http": 200,
+  "status": "completed",
+  "elapsedMs": 34103,
+  "model": "gpt-6.1-sol",
+  "evidenceCount": 177,
+  "absoluteLiquidityEvidence": 60,
+  "liquidityClaims": 1,
+  "hasVolumeRatio": false,
+  "hasUnwantedTopicPhrase": false,
+  "hasGenericTrendCaution": false,
+  "partial": true
+}

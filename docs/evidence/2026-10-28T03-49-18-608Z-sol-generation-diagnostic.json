@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-10-28T03:49:18.610Z",
+  "model": "gpt-6.1-sol",
+  "liveResponsesAttempted": true,
+  "modelOutputReceived": true,
+  "validationPassed": true,
+  "privateDirectory": ".cache/sol-diagnostic-2026-10-28T03-49-18-608Z",
+  "evidenceCount": 36,
+  "openaiHttpStatus": 200,
+  "responseId": "resp_07bd757cdb5fce7e016ae170c75ce087d28a5069ec07f6bac5"
+}

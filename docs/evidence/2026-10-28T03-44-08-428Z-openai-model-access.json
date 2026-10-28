@@ -1,0 +1,7 @@
+{
+  "recordedAt": "2026-10-28T03:44:07.935Z",
+  "model": "gpt-6.1-sol",
+  "endpoint": "https://api.openai.com/v1/models/{model}",
+  "httpStatus": 200,
+  "modelAccessible": true
+}

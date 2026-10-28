@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "SRC-FULL-F",
+      "http_status_observed": 200,
+      "sha256": "496CF554E73D66E50CBD9DFFD90EE7A9D2202135B629A383DA0B36A398C83971",
+      "url": "https://fuyao.aicubes.cn/llms-full.txt"
+    },
+    {
+      "id": "SRC-FULL-I",
+      "http_status_observed": 200,
+      "sha256": "B5DE362D9C79435056C19A54F7ADA23B3AC00C385E219388BA1A3429AC0FF987",
+      "url": "https://s.thsi.cn/cd/ifind-java-ds-bff-web-container/ifind-mcp-web/llms-full.txt"
+    },
+    {
+      "id": "SRC-ZIP-I",
+      "download_completed": true,
+      "sha256": "EA7C60474CF0209F2DEA0A7EBBAD60B3517A83A97E506A118B297B0907EDC460",
+      "url": "https://s.thsi.cn/cd/ifind-java-ds-bff-web-container/ifind-mcp-web/skills/ifind-finance-data-1.5.0.zip"
+    }
+  ],
+  "recorded_at_utc": "2026-10-27T20:23:06.1943178+00:00",
+  "note": "公开参考材料已读；完整原文仅在系统临时目录缓存，未安装或执行第三方包。时间为本清单生成时刻，不冒充下载时刻。"
+}

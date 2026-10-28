@@ -1,0 +1,14 @@
+{
+  "recordedAt": "2026-10-28T04:50:13.303Z",
+  "keyMatchesInstalledSkill": true,
+  "phases": [
+    {
+      "method": "initialize",
+      "startedAt": "2026-10-28T04:49:53.293Z",
+      "errorName": "AbortError",
+      "code": 23
+    }
+  ],
+  "ok": false,
+  "reason": "iFinD连接超时、中断或本次等待已取消，未使用替代数据。"
+}

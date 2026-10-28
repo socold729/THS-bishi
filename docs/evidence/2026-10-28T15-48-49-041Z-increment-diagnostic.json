@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-28T15:51:47.985Z",
+  "privateDirectory": ".cache/increment-diagnostic-2026-10-28T15-48-49-041Z",
+  "summaries": [
+    {
+      "style": "short",
+      "status": "failed",
+      "phase": "validation",
+      "code": "CAUSAL_REJECTED"
+    },
+    {
+      "style": "swing",
+      "status": "failed",
+      "phase": "validation",
+      "code": "NO_FACTS"
+    },
+    {
+      "style": "value",
+      "status": "failed",
+      "phase": "validation",
+      "code": "SUBJECT_MISMATCH"
+    }
+  ]
+}

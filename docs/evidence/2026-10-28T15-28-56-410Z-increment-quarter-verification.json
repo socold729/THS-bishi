@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-10-28T15:28:56.410Z",
+  "realInterfaces": true,
+  "checks": {
+    "operating_income": {
+      "current": true,
+      "previous": true,
+      "sourceIds": [
+        "mcp-q2",
+        "mcp-q1"
+      ]
+    },
+    "parent_holder_net_profit": {
+      "current": true,
+      "previous": true,
+      "sourceIds": [
+        "mcp-q2",
+        "mcp-q1"
+      ]
+    }
+  },
+  "comparisons": [
+    {
+      "field": "operating_income",
+      "basis": "verified-ytd",
+      "comparable": true,
+      "rateAvailable": true
+    },
+    {
+      "field": "parent_holder_net_profit",
+      "basis": "verified-ytd",
+      "comparable": true,
+      "rateAvailable": true
+    }
+  ],
+  "industryIdentityVerified": true,
+  "industryAsOf": "2026-10-27",
+  "privateEvidenceDirectory": ".cache/increment-2026-10-28T15-05-00-501Z"
+}

@@ -1,0 +1,18 @@
+{
+  "recordedAt": "2026-10-28T03:45:49.014Z",
+  "model": "gpt-6.1-sol",
+  "liveResponsesAttempted": true,
+  "modelOutputReceived": true,
+  "validationPassed": false,
+  "privateDirectory": ".cache/sol-diagnostic-2026-10-28T03-45-49-011Z",
+  "evidenceCount": 36,
+  "openaiHttpStatus": 200,
+  "responseId": "resp_0a4b3d261400189a016ae16ff5de5887d2a668dd70b4f4c2fb",
+  "validationCode": "CAUSAL_REJECTED",
+  "causalMatchedNarratives": [
+    {
+      "kind": "uncertainty",
+      "text": "高位候选仅来自有限样本，无法确认全市场龙头地位或后续延续性。供应商题材归类不能证明上涨原因，题材词频也不能代表板块收益或全市场强度。"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "recorded_at_utc": "2026-10-27T21:43:13.3150405+00:00",
+  "stage": "PanHou AI architecture and foundation MVP slice",
+  "framework": "Next.js 16.4.3 / React 19.3.1",
+  "production_build": {
+    "command": "npm run build",
+    "telemetry_disabled_for_environment_workaround": true,
+    "exit_code": 0
+  },
+  "typecheck": {
+    "exit_code": 0,
+    "command": "npm run typecheck"
+  },
+  "unit_tests": {
+    "inputs": "explicit synthetic unit-test inputs, never product data",
+    "command": "npm test",
+    "failed": 0,
+    "passed": 28
+  },
+  "browser_tests": {
+    "tests": [
+      {
+        "duration_ms": 637,
+        "status": "passed",
+        "title": "configuration persists; failed data never shows a normal report (simulated failure)",
+        "passed": true
+      },
+      {
+        "duration_ms": 7570,
+        "status": "passed",
+        "title": "real provider dashboard, evidence, symbol add/remove, and responsive layout",
+        "passed": true
+      },
+      {
+        "duration_ms": 8610,
+        "status": "passed",
+        "title": "strategy routes actually return different provider datasets",
+        "passed": true
+      }
+    ],
+    "command": "playwright test --reporter=json",
+    "browser": "installed Microsoft Edge, headless",
+    "stats": {
+      "startTime": "2026-10-27T21:40:12.3Z",
+      "duration": 18742.52,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "viewports": [
+      "1440x1080",
+      "390x844"
+    ]
+  },
+  "original_log_integrity": [
+    {
+      "path": "docs/logs/开发日志.md",
+      "original_bytes": 5178,
+      "prefix_unchanged": true
+    },
+    {
+      "path": "docs/logs/AI使用与验证记录.md",
+      "original_bytes": 5114,
+      "prefix_unchanged": true
+    },
+    {
+      "path": "docs/api/接口验证记录.md",
+      "original_bytes": 10723,
+      "prefix_unchanged": true
+    },
+    {
+      "path": "docs/tests/测试记录.md",
+      "original_bytes": 5720,
+      "prefix_unchanged": true
+    }
+  ],
+  "credential_scan": {
+    "client_bundle_leaks": [],
+    "private_runtime_config": ".env.local",
+    "candidate_source_and_record_files": 69,
+    "credential_files_found": [],
+    "env_ignored_by_rule": ".env*"
+  },
+  "financial_capability_recheck": "2026-10-27-stage2-capability-recheck.json",
+  "ifind_news": "2026-10-27-stage2-ifind-news.json",
+  "not_implemented": [
+    "OpenAI analysis",
+    "AI claim validation",
+    "report persistence/history/feedback",
+    "cloud deployment"
+  ],
+  "notes": [
+    "Initial environment formatting error and rejected requests preserved",
+    "Initial telemetry build error recorded",
+    "Browser failure scenario is explicitly simulated; remaining two tests use real provider connectivity"
+  ]
+}

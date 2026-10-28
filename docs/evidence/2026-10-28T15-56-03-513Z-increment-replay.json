@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-28T15:56:03.513Z",
+  "results": [
+    {
+      "style": "short",
+      "replayedOriginalModelOutput": true,
+      "newModelCall": false,
+      "passed": true,
+      "sections": [
+        "连板梯队、龙头候选及对应炒作题材"
+      ]
+    },
+    {
+      "style": "swing",
+      "replayedOriginalModelOutput": true,
+      "newModelCall": false,
+      "passed": true,
+      "sections": [
+        "半导体与机器人：周K、月K趋势及成交量变化",
+        "行业发展资料梳理：仅采用可靠来源，资料不足时明确说明"
+      ]
+    }
+  ]
+}

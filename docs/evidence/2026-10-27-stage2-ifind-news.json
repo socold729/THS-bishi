@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-27T21:25:03.737758+00:00",
+  "service": "news",
+  "calls": [
+    {
+      "tool": "search_news",
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='api-mcp.51ifind.com', port=8643): Read timed out. (read timeout=30)"
+    }
+  ],
+  "completed_at": "2026-10-27T21:25:34.551197+00:00"
+}

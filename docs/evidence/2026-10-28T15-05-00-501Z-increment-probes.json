@@ -1,0 +1,72 @@
+{
+  "recordedAt": "2026-10-28T15:05:00.509Z",
+  "privateDirectory": ".cache/increment-2026-10-28T15-05-00-501Z",
+  "rest": [
+    {
+      "name": "index",
+      "ok": true,
+      "reason": "",
+      "count": 680,
+      "fields": [
+        "date_ms",
+        "volume",
+        "turnover",
+        "open_price",
+        "high_price",
+        "low_price",
+        "close_price"
+      ]
+    },
+    {
+      "name": "quarters",
+      "ok": true,
+      "reason": "",
+      "count": 12,
+      "fields": [
+        "thscode",
+        "ticker",
+        "period",
+        "fiscal_year",
+        "fiscal_period",
+        "report_date_ms",
+        "period_end_ms",
+        "currency",
+        "operating_income",
+        "operating_costs",
+        "operating_expenses",
+        "sales_fee",
+        "manage_fee",
+        "research_and_development_expenses",
+        "operating_profit",
+        "interest_expenses",
+        "profit_total",
+        "income_tax_expense",
+        "net_profit",
+        "parent_holder_net_profit",
+        "basic_eps"
+      ]
+    },
+    {
+      "name": "industry",
+      "ok": true,
+      "reason": "",
+      "count": 320,
+      "fields": [
+        "thscode",
+        "name"
+      ]
+    }
+  ],
+  "mcp": [
+    {
+      "name": "basis",
+      "returned": true,
+      "privateFile": ".cache/increment-2026-10-28T15-05-00-501Z/ifind-basis.json"
+    },
+    {
+      "name": "identity",
+      "returned": true,
+      "privateFile": ".cache/increment-2026-10-28T15-05-00-501Z/ifind-identity.json"
+    }
+  ]
+}

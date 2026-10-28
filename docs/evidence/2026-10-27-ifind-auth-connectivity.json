@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-10-27T21:12:48.4789573+00:00",
+  "method": "initialize",
+  "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-stock-mcp",
+  "http_status": 200,
+  "rpc_error": null,
+  "session_header_present": true,
+  "transport_error": null,
+  "server_info": {
+    "version": "1.0.0",
+    "name": "hexin-ifind-ds-stock-mcp"
+  }
+}

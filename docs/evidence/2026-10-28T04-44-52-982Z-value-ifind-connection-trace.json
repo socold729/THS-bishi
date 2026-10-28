@@ -1,0 +1,14 @@
+{
+  "recordedAt": "2026-10-28T04:44:52.982Z",
+  "keyMatchesInstalledSkill": true,
+  "phases": [
+    {
+      "method": "initialize",
+      "startedAt": "2026-10-28T04:44:42.269Z",
+      "errorName": "TypeError",
+      "code": "UND_ERR_CONNECT_TIMEOUT"
+    }
+  ],
+  "ok": false,
+  "reason": "iFinD连接超时、中断或本次等待已取消，未使用替代数据。"
+}

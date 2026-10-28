@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-10-28T05:13:13.0758465Z",
+  "diskFreeBytes": 20760424448,
+  "projectTotalBytes": 1029638746,
+  "projectOldBuildBackupBytes": 332141440,
+  "projectDependenciesBytes": 479052605,
+  "projectCurrentBuildBytes": 197186968,
+  "npmCacheBytes": 419680655,
+  "pagefile": {
+    "Name": "C:\\pagefile.sys",
+    "AllocatedBaseSize": 17796,
+    "CurrentUsage": 2538,
+    "PeakUsage": 4595
+  },
+  "availablePhysicalMemoryKiB": 2589056,
+  "projectServerBeforePrivateBytes": 3077361664,
+  "projectServerAfter": [
+    {
+      "Id": 38028,
+      "WorkingSet64": 291667968,
+      "PrivateMemorySize64": 353366016
+    }
+  ],
+  "httpStatus": 200,
+  "deletedFiles": false,
+  "systemSettingsChanged": false,
+  "uncertainty": "No before-growth pagefile baseline; memory pressure is consistent with auto-expansion, exact growth and exclusive cause unproven."
+}

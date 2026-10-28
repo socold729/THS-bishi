@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-28T04:26:17.062Z",
+  "directory": "C:\\Users\\socold\\Desktop\\同花顺笔试\\.cache\\value-ifind-probe-2026-10-28T04-26-17-060Z",
+  "queries": [
+    {
+      "query": "贵州茅台2026年10月27日、2026年9月30日和2026年6月30日的市盈率PE(TTM)、市净率PB，分别列出交易日期及指标口径",
+      "error": "read ECONNRESET"
+    }
+  ]
+}

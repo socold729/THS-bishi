@@ -1,0 +1,32 @@
+{
+  "recorded_at_utc": "2026-10-27T21:16:20.6818361+00:00",
+  "guide_url": "https://mcp.51ifind.com/gwstatic/static/ds_web/ifind-mcp-web/skills/SKILL_INSTALL_GUIDE.md",
+  "guide_sha256": "FCF915C20B4BF96A9E7688E2FBEEA08625BCCF35A1A3C2D807B030C7CC7622FD",
+  "zip_url": "https://s.thsi.cn/cd/ifind-java-ds-bff-web-container/ifind-mcp-web/skills/ifind-finance-data-1.5.0.zip",
+  "zip_sha256": "EA7C60474CF0209F2DEA0A7EBBAD60B3517A83A97E506A118B297B0907EDC460",
+  "zip_bytes": 26241,
+  "skill_version": "1.5.0",
+  "installation_path": "C:\\Users\\socold\\.codex\\skills\\ifind-finance-data",
+  "required_files_present": true,
+  "reference_markdown_count": 11,
+  "runtime_node": "v24.22.1",
+  "runtime_python": "3.13.6",
+  "requests_version": "2.34.2",
+  "credential_configured": true,
+  "credential_printed": false,
+  "credential_found_in_project_docs": false,
+  "selfcheck_passed": false,
+  "selfcheck_failures": [
+    "Node overall timeout 50000ms",
+    "Python read timeout 10s",
+    "Python repeat read timeout 30s"
+  ],
+  "separate_initialize_http_status": 200,
+  "separate_tools_list_http_status": 200,
+  "separate_tools_list_tool_count": 10,
+  "separate_protocol_diagnostic_limitation": "The diagnostic initialize timed out before notification/list; the list succeeded without a valid session header. Do not describe this as a successful full session sequence.",
+  "financial_data_queries": 0,
+  "official_scripts_modified": false,
+  "temporary_selfcheck_scripts_removed": true,
+  "needs_host_skill_reload": true
+}

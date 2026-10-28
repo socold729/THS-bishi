@@ -1,0 +1,53 @@
+{
+  "recordedAt": "2026-10-28T16:10:56.168Z",
+  "privateDirectory": ".cache/increment-live-2026-10-28T16-10-12-331Z",
+  "kind": "real-financial-and-real-model-custom-reviews",
+  "requests": [
+    {
+      "style": "short",
+      "date": "2026-10-27",
+      "httpStatus": 200,
+      "status": "completed",
+      "elapsedMs": 43834,
+      "reportPublished": true,
+      "model": "gpt-6.1-sol",
+      "plan": {
+        "scopes": [
+          "ladder",
+          "topics"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "custom_1",
+            "title": "连板梯队结构"
+          },
+          {
+            "key": "custom_2",
+            "title": "龙头候选梳理"
+          },
+          {
+            "key": "custom_3",
+            "title": "对应炒作题材"
+          }
+        ],
+        "includeWatchlist": false,
+        "unavailable": [],
+        "mode": "custom"
+      },
+      "customSnapshotMatches": true,
+      "evidenceCount": 26,
+      "citedEvidenceCount": 9,
+      "independentObservations": 0,
+      "deduplicatedCount": 0,
+      "privateFile": ".cache/increment-live-2026-10-28T16-10-12-331Z/short-task.json",
+      "partial": true,
+      "sourceEndpoints": [
+        "/api/a-share/special-data/limit-up-ladder",
+        "/api/a-share/special-data/limit-up-pool"
+      ],
+      "qoqEvidence": 0,
+      "industryEvidence": 0
+    }
+  ]
+}

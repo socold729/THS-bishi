@@ -1,0 +1,322 @@
+[
+  {
+    "id": "S2-RECHECK-001",
+    "started_at_utc": "2026-10-27T21:24:25.2050780+00:00",
+    "path": "/api/a-share/special-data/limit-up-pool?date_ms=1793030400000&page=1&size=200&sort_field=continue_day_cnt&sort_dir=desc",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "ceef0522067840178883db3b29539e85",
+    "fields": [
+      "timestamp",
+      "pagination",
+      "item"
+    ],
+    "count": 42,
+    "first_fields": [
+      "thscode",
+      "ticker",
+      "name",
+      "is_st",
+      "is_new",
+      "last_price",
+      "price_change_ratio_pct",
+      "limit_up_time",
+      "limit_up_reason",
+      "continue_day_text",
+      "continue_day_cnt",
+      "seal_money",
+      "max_seal_money"
+    ],
+    "metadata": {
+      "pagination": {
+        "total": 42,
+        "pages": 1,
+        "size": 200,
+        "page": 1
+      },
+      "timestamp": 1793136244052
+    },
+    "error": null
+  },
+  {
+    "id": "S2-RECHECK-002",
+    "started_at_utc": "2026-10-27T21:24:26.2963269+00:00",
+    "path": "/api/a-share/special-data/limit-down-pool?date_ms=1793030400000&page=1&size=200",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "25d1b88b98474a4b9aaa973bfb8e16e1",
+    "fields": [
+      "timestamp",
+      "pagination",
+      "item"
+    ],
+    "count": 23,
+    "first_fields": [
+      "thscode",
+      "ticker",
+      "name",
+      "last_price",
+      "price_change_ratio_pct",
+      "first_limit_time",
+      "last_limit_time",
+      "turnover_ratio_pct"
+    ],
+    "metadata": {
+      "pagination": {
+        "total": 23,
+        "pages": 1,
+        "size": 200,
+        "page": 1
+      },
+      "timestamp": 1793136264402
+    },
+    "error": null
+  },
+  {
+    "id": "S2-RECHECK-003",
+    "started_at_utc": "2026-10-27T21:24:27.0451186+00:00",
+    "path": "/api/a-share/special-data/limit-up-ladder",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "5f4c1f4cf1cf4a58a50ae042f8ef9fe1",
+    "fields": [
+      "timestamp",
+      "window",
+      "item"
+    ],
+    "count": 30,
+    "first_fields": [
+      "date",
+      "boards"
+    ],
+    "metadata": {
+      "timestamp": 1793136241363,
+      "window": {
+        "length": 30,
+        "date_list": [
+          "2026-10-27",
+          "2026-10-26",
+          "2026-10-23",
+          "2026-10-22",
+          "2026-10-21",
+          "2026-10-20",
+          "2026-10-19",
+          "2026-10-16",
+          "2026-10-15",
+          "2026-10-14",
+          "2026-10-13",
+          "2026-10-12",
+          "2026-10-09",
+          "2026-10-08",
+          "2026-09-30",
+          "2026-09-29",
+          "2026-09-28",
+          "2026-09-24",
+          "2026-09-23",
+          "2026-09-22",
+          "2026-09-21",
+          "2026-09-18",
+          "2026-09-17",
+          "2026-09-16",
+          "2026-09-15",
+          "2026-09-14",
+          "2026-09-11",
+          "2026-09-10",
+          "2026-09-09",
+          "2026-09-08"
+        ],
+        "board_caps": {
+          "two_board": 4,
+          "three_board": 4,
+          "four_board": 3,
+          "five_board": 2,
+          "six_board": 2,
+          "seven_over": 1
+        }
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "S2-RECHECK-004",
+    "started_at_utc": "2026-10-27T21:24:28.2317114+00:00",
+    "path": "/api/a-share-index/prices/historical?thscode=000300.SH&interval=1d&start=1761494400000&end=1793030400000",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "081aebfd33da41bcb000c420084abedf",
+    "fields": [
+      "timestamp",
+      "item",
+      "thscode",
+      "interval",
+      "adjust"
+    ],
+    "count": 243,
+    "first_fields": [
+      "date_ms",
+      "volume",
+      "turnover",
+      "open_price",
+      "high_price",
+      "low_price",
+      "close_price"
+    ],
+    "metadata": {
+      "thscode": "000300.SH",
+      "interval": "1d",
+      "timestamp": 1793030400000
+    },
+    "error": null
+  },
+  {
+    "id": "S2-RECHECK-005",
+    "started_at_utc": "2026-10-27T21:24:29.4319770+00:00",
+    "path": "/api/a-share-index/catalog/ths-index-list?tag=industry",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "ae86d6e6a2444690850638afc6e9b889",
+    "fields": [
+      "timestamp",
+      "item"
+    ],
+    "count": 320,
+    "first_fields": [
+      "thscode",
+      "name"
+    ],
+    "metadata": {
+      "first_industries": [
+        {
+          "thscode": "881101.TI",
+          "name": "种植业与林业"
+        },
+        {
+          "thscode": "884001.TI",
+          "name": "种子生产"
+        },
+        {
+          "thscode": "884002.TI",
+          "name": "粮食种植"
+        }
+      ],
+      "timestamp": 1793136270262
+    },
+    "error": null
+  },
+  {
+    "id": "S2-RECHECK-006",
+    "started_at_utc": "2026-10-27T21:24:30.6477595+00:00",
+    "path": "/api/a-share/financials/balance-sheets?thscode=600519.SH&period=annual&limit=2",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "4f0f6cc782194f40a40badbd6f0a1051",
+    "fields": [
+      "timestamp",
+      "item"
+    ],
+    "count": 2,
+    "first_fields": [
+      "thscode",
+      "ticker",
+      "period",
+      "fiscal_year",
+      "fiscal_period",
+      "report_date_ms",
+      "period_end_ms",
+      "currency",
+      "assets_total",
+      "total_current_assets",
+      "non_current_nets_total",
+      "cash",
+      "accounts_receivable",
+      "total_debt",
+      "holder_equity_total"
+    ],
+    "metadata": {
+      "timestamp": 1767110400000,
+      "report_dates": [
+        {
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1786723200000
+        },
+        {
+          "period_end_ms": 1735574400000,
+          "report_date_ms": 1776355200000
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "S2-RECHECK-007",
+    "started_at_utc": "2026-10-27T21:24:31.3930897+00:00",
+    "path": "/api/a-share/financials/cash-flow-statements?thscode=600519.SH&period=annual&limit=2",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "e89f1e0bc8004372a7c026376240649c",
+    "fields": [
+      "timestamp",
+      "item"
+    ],
+    "count": 2,
+    "first_fields": [
+      "thscode",
+      "ticker",
+      "period",
+      "fiscal_year",
+      "fiscal_period",
+      "report_date_ms",
+      "period_end_ms",
+      "currency",
+      "act_cash_flow_net",
+      "invest_cash_flow_net",
+      "financing_cash_flow_net",
+      "pay_fixed_assets_etc_cash",
+      "pay_dividends_profits_interest_cash",
+      "cash_equivalents_net_addition"
+    ],
+    "metadata": {
+      "timestamp": 1767110400000,
+      "report_dates": [
+        {
+          "period_end_ms": 1767110400000,
+          "report_date_ms": 1776355200000
+        },
+        {
+          "period_end_ms": 1735574400000,
+          "report_date_ms": 1776355200000
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "S2-RECHECK-008",
+    "started_at_utc": "2026-10-27T21:24:32.1925714+00:00",
+    "path": "/api/a-share/financials/indicators?thscode=600519.SH&report=2025-4",
+    "http_status": 200,
+    "code": 0,
+    "message": "success",
+    "request_id": "5f8da6e80b274b5caf708af8e6f22460",
+    "fields": [
+      "thscode",
+      "report",
+      "abilities"
+    ],
+    "count": null,
+    "first_fields": [],
+    "metadata": {
+      "thscode": "600519.SH",
+      "report": "2025-4",
+      "report_dates": []
+    },
+    "error": null
+  }
+]
