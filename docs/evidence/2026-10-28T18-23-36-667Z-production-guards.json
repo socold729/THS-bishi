@@ -1,0 +1,37 @@
+{
+  "recordedAt": "2026-10-28T18:23:36.666Z",
+  "kind": "actual-production-guard-tests-no-model-calls",
+  "base": "https://ths-bishi-83sj.vercel.app",
+  "modelCalls": 0,
+  "checks": [
+    {
+      "id": "missing-session",
+      "http": 403,
+      "expected": 403,
+      "passed": true,
+      "errorCode": "SESSION_INVALID"
+    },
+    {
+      "id": "forged-financial-data",
+      "http": 400,
+      "expected": 400,
+      "passed": true,
+      "errorCode": null
+    },
+    {
+      "id": "cross-origin",
+      "http": 403,
+      "expected": 403,
+      "passed": true,
+      "errorCode": "ORIGIN_MISMATCH"
+    },
+    {
+      "id": "unknown-task",
+      "http": 404,
+      "expected": 404,
+      "passed": true,
+      "errorCode": null
+    }
+  ],
+  "passed": true
+}

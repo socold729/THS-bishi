@@ -1,0 +1,113 @@
+{
+  "recordedAt": "2026-10-28T18:11:52.074Z",
+  "base": "https://ths-bishi-83sj.vercel.app",
+  "privateDirectory": ".cache/production-initial-2026-10-28T18-11-52-073Z",
+  "requests": [
+    {
+      "path": "/",
+      "http": 200,
+      "elapsedMs": 90,
+      "contentType": "text/html; charset=utf-8",
+      "redirected": false,
+      "url": "https://ths-bishi-83sj.vercel.app/",
+      "pageLooksCorrect": true,
+      "deploymentId": "iad1::tw7wn-1793211111844-c1b904401b6c"
+    },
+    {
+      "path": "/settings",
+      "http": 200,
+      "elapsedMs": 81,
+      "contentType": "text/html; charset=utf-8",
+      "redirected": false,
+      "url": "https://ths-bishi-83sj.vercel.app/settings",
+      "pageLooksCorrect": true,
+      "deploymentId": "iad1::tw7wn-1793211111883-6c6ccf2d8236"
+    },
+    {
+      "path": "/reports",
+      "http": 200,
+      "elapsedMs": 63,
+      "contentType": "text/html; charset=utf-8",
+      "redirected": false,
+      "url": "https://ths-bishi-83sj.vercel.app/reports",
+      "pageLooksCorrect": true,
+      "deploymentId": "iad1::tw7wn-1793211111963-265a30e34293"
+    },
+    {
+      "path": "/watchlist",
+      "http": 200,
+      "elapsedMs": 60,
+      "contentType": "text/html; charset=utf-8",
+      "redirected": false,
+      "url": "https://ths-bishi-83sj.vercel.app/watchlist",
+      "pageLooksCorrect": true,
+      "deploymentId": "iad1::tw7wn-1793211112026-6e94cec6f346"
+    },
+    {
+      "path": "/api/symbols?q=600519",
+      "http": 200,
+      "elapsedMs": 1683,
+      "contentType": "application/json",
+      "redirected": false,
+      "url": "https://ths-bishi-83sj.vercel.app/api/symbols?q=600519",
+      "pageLooksCorrect": true,
+      "deploymentId": "iad1::iad1::xdllj-1793211112087-e76ef4cedbff"
+    }
+  ],
+  "market": {
+    "http": 200,
+    "elapsedMs": 5047,
+    "status": "partial",
+    "date": "2026-10-28",
+    "latestClosedDate": "2026-10-28",
+    "indices": [
+      {
+        "code": "000001.SH",
+        "hasClose": true,
+        "bars": 1205
+      },
+      {
+        "code": "399001.SZ",
+        "hasClose": true,
+        "bars": 1205
+      },
+      {
+        "code": "399006.SZ",
+        "hasClose": true,
+        "bars": 1205
+      },
+      {
+        "code": "000680.SH",
+        "hasClose": true,
+        "bars": 1205
+      }
+    ],
+    "counts": [
+      {
+        "id": "limit-up-pool",
+        "hasValue": true
+      },
+      {
+        "id": "limit-down-pool",
+        "hasValue": true
+      }
+    ],
+    "ladderLevels": 3,
+    "stocks": 1,
+    "sourceEndpoints": [
+      "/api/a-share-index/prices/historical",
+      "/api/a-share/special-data/limit-up-pool",
+      "/api/a-share/special-data/limit-down-pool",
+      "/api/a-share/special-data/limit-up-ladder",
+      "/api/a-share/prices/historical"
+    ],
+    "messages": []
+  },
+  "originSessionCheck": {
+    "http": 400,
+    "body": {
+      "error": "复盘日期、策略或自选股参数无效。"
+    },
+    "note": "Invalid body, no financial/model call"
+  }
+}

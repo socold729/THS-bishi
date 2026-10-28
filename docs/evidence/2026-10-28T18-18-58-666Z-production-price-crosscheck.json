@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-10-28T18:18:58.665Z",
+  "kind": "actual-production-versus-direct-same-provider-check",
+  "date": "2026-10-28",
+  "index": "000001.SH",
+  "http": 200,
+  "businessCode": 0,
+  "exactDatePresent": true,
+  "closeMatches": true,
+  "ohlcMatches": true,
+  "note": "Two paths to the same provider; not an independent-source audit"
+}

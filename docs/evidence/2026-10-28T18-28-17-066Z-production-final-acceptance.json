@@ -1,0 +1,534 @@
+{
+  "recordedAt": "2026-10-28T18:28:17.066Z",
+  "kind": "actual-production-final-acceptance",
+  "base": "https://ths-bishi-83sj.vercel.app",
+  "businessSourceChanged": false,
+  "productionSettingsChanged": false,
+  "requiredArtifactsPresent": true,
+  "allTaskRequirementsFullySatisfied": false,
+  "models": [
+    {
+      "style": "short",
+      "mode": "default",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "date": "2026-10-28",
+      "elapsedSeconds": 35.791,
+      "evidenceCount": 66,
+      "checkedCitationOccurrences": 21,
+      "saved": true,
+      "version": 1,
+      "partial": true,
+      "configurationMatches": true,
+      "plan": {
+        "mode": "default",
+        "scopes": [
+          "indices",
+          "limits",
+          "ladder",
+          "topics",
+          "watchlist",
+          "industry"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "sentiment",
+            "title": "情绪与涨跌停分布"
+          },
+          {
+            "key": "ladder",
+            "title": "连板高度与梯队变化"
+          },
+          {
+            "key": "candidates",
+            "title": "高位候选与题材样本"
+          }
+        ],
+        "includeWatchlist": true,
+        "unavailable": []
+      },
+      "privateTask": ".cache/production-acceptance-2026-10-28T18-14-26-816Z/short-default-task.json"
+    },
+    {
+      "style": "short",
+      "mode": "custom",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "date": "2026-10-28",
+      "elapsedSeconds": 19.649,
+      "evidenceCount": 24,
+      "checkedCitationOccurrences": 9,
+      "saved": true,
+      "version": 2,
+      "partial": true,
+      "configurationMatches": true,
+      "plan": {
+        "scopes": [
+          "ladder",
+          "topics"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "custom_1",
+            "title": "有限样本中的连板梯队分布与高度变化"
+          },
+          {
+            "key": "custom_2",
+            "title": "样本内高位候选及对应原始题材标签"
+          }
+        ],
+        "includeWatchlist": false,
+        "unavailable": [],
+        "mode": "custom"
+      },
+      "privateTask": ".cache/production-acceptance-2026-10-28T18-14-26-816Z/short-custom-task.json"
+    },
+    {
+      "style": "swing",
+      "mode": "default",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "date": "2026-10-28",
+      "elapsedSeconds": 33.28,
+      "evidenceCount": 177,
+      "checkedCitationOccurrences": 18,
+      "saved": true,
+      "version": 1,
+      "partial": true,
+      "configurationMatches": true,
+      "plan": {
+        "mode": "default",
+        "scopes": [
+          "indices",
+          "trends",
+          "watchlist",
+          "industry"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "structure",
+            "title": "日周月趋势结构"
+          },
+          {
+            "key": "industry",
+            "title": "行业与板块分析"
+          }
+        ],
+        "includeWatchlist": true,
+        "unavailable": []
+      },
+      "privateTask": ".cache/production-acceptance-2026-10-28T18-14-26-816Z/swing-default-task.json"
+    },
+    {
+      "style": "swing",
+      "mode": "custom",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "date": "2026-10-28",
+      "elapsedSeconds": 36.06,
+      "evidenceCount": 169,
+      "checkedCitationOccurrences": 33,
+      "saved": true,
+      "version": 2,
+      "partial": false,
+      "configurationMatches": true,
+      "plan": {
+        "scopes": [
+          "trends",
+          "watchlist"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "custom_1",
+            "title": "自选股周K、月K与均线结构"
+          },
+          {
+            "key": "custom_2",
+            "title": "自选股真实成交量、成交额及较前五日、上月同期差额"
+          }
+        ],
+        "includeWatchlist": true,
+        "unavailable": [],
+        "mode": "custom"
+      },
+      "privateTask": ".cache/production-acceptance-2026-10-28T18-14-26-816Z/swing-custom-task.json"
+    },
+    {
+      "style": "value",
+      "mode": "default",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "date": "2026-10-28",
+      "elapsedSeconds": 54.156,
+      "evidenceCount": 68,
+      "checkedCitationOccurrences": 15,
+      "saved": true,
+      "version": 1,
+      "partial": true,
+      "configurationMatches": true,
+      "plan": {
+        "mode": "default",
+        "scopes": [
+          "financials",
+          "valuations",
+          "announcements",
+          "industry",
+          "hypotheses",
+          "watchlist"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "business",
+            "title": "经营与财务变化"
+          },
+          {
+            "key": "valuation",
+            "title": "估值与历史信息"
+          },
+          {
+            "key": "industry",
+            "title": "行业发展与证据边界"
+          },
+          {
+            "key": "tracking",
+            "title": "基本面跟踪"
+          }
+        ],
+        "includeWatchlist": true,
+        "unavailable": []
+      },
+      "privateTask": ".cache/production-acceptance-2026-10-28T18-14-26-816Z/value-default-task.json"
+    },
+    {
+      "style": "value",
+      "mode": "custom",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "date": "2026-10-28",
+      "elapsedSeconds": 33.244,
+      "evidenceCount": 26,
+      "checkedCitationOccurrences": 10,
+      "saved": true,
+      "version": 2,
+      "partial": true,
+      "configurationMatches": true,
+      "plan": {
+        "scopes": [
+          "financials",
+          "watchlist"
+        ],
+        "industries": [],
+        "sections": [
+          {
+            "key": "custom_1",
+            "title": "自选股已披露营业收入、归母净利润及可比变化"
+          }
+        ],
+        "includeWatchlist": true,
+        "unavailable": [],
+        "mode": "custom"
+      },
+      "privateTask": ".cache/production-acceptance-2026-10-28T18-14-26-816Z/value-custom-task.json"
+    }
+  ],
+  "reportGenerationRequests": 6,
+  "additionalCustomPlanningRequests": 3,
+  "planningCountBasis": "executed server workflow; not vendor billing audit",
+  "privateOriginalDirectory": ".cache/production-acceptance-2026-10-28T18-14-26-816Z",
+  "initialRun": {
+    "checks": {
+      "passed": 7,
+      "failed": 6,
+      "realReportRequests": 6,
+      "completedReports": 6,
+      "savedReports": 6
+    },
+    "failedChecks": [
+      {
+        "id": "fresh-onboarding-and-real-watchlist",
+        "classification": "test-harness-locator/timing/key-order/context-error",
+        "rawPreservedPrivately": true
+      },
+      {
+        "id": "calendar-and-two-notes-sync-reload-by-date",
+        "classification": "test-harness-locator/timing/key-order/context-error",
+        "rawPreservedPrivately": true
+      },
+      {
+        "id": "short-custom-real-ai-and-snapshot",
+        "classification": "test-harness-locator/timing/key-order/context-error",
+        "rawPreservedPrivately": true
+      },
+      {
+        "id": "swing-custom-real-ai-and-snapshot",
+        "classification": "test-harness-locator/timing/key-order/context-error",
+        "rawPreservedPrivately": true
+      },
+      {
+        "id": "value-custom-real-ai-and-snapshot",
+        "classification": "test-harness-locator/timing/key-order/context-error",
+        "rawPreservedPrivately": true
+      },
+      {
+        "id": "restore-defaults-and-clear-current-report-on-context-switch",
+        "classification": "test-harness-locator/timing/key-order/context-error",
+        "rawPreservedPrivately": true
+      }
+    ]
+  },
+  "secondReadOnlyRun": {
+    "passed": 5,
+    "failed": 1,
+    "realReportRequests": 0,
+    "completedReports": 0,
+    "savedReports": 0
+  },
+  "finalReadOnlyRun": {
+    "passed": 6,
+    "failed": 0,
+    "realReportRequests": 0,
+    "completedReports": 0,
+    "savedReports": 0
+  },
+  "archiveRecheck": {
+    "deepContentChecks": [
+      {
+        "style": "short",
+        "mode": "default",
+        "version": 1,
+        "deepEqual": true,
+        "configurationMatches": true,
+        "evidenceCount": 66
+      },
+      {
+        "style": "short",
+        "mode": "custom",
+        "version": 2,
+        "deepEqual": true,
+        "configurationMatches": true,
+        "evidenceCount": 24
+      },
+      {
+        "style": "swing",
+        "mode": "default",
+        "version": 1,
+        "deepEqual": true,
+        "configurationMatches": true,
+        "evidenceCount": 177
+      },
+      {
+        "style": "swing",
+        "mode": "custom",
+        "version": 2,
+        "deepEqual": true,
+        "configurationMatches": true,
+        "evidenceCount": 169
+      },
+      {
+        "style": "value",
+        "mode": "default",
+        "version": 1,
+        "deepEqual": true,
+        "configurationMatches": true,
+        "evidenceCount": 68
+      },
+      {
+        "style": "value",
+        "mode": "custom",
+        "version": 2,
+        "deepEqual": true,
+        "configurationMatches": true,
+        "evidenceCount": 26
+      }
+    ],
+    "browserChecks": [
+      {
+        "style": "short",
+        "oldConfigurationFrozen": true,
+        "bodyAndEvidenceVisible": true,
+        "refreshRetained": true,
+        "versions": [
+          1,
+          2
+        ],
+        "canonicalContentUnchanged": true
+      },
+      {
+        "style": "swing",
+        "oldConfigurationFrozen": true,
+        "bodyAndEvidenceVisible": true,
+        "refreshRetained": true,
+        "versions": [
+          1,
+          2
+        ],
+        "canonicalContentUnchanged": true
+      },
+      {
+        "style": "value",
+        "oldConfigurationFrozen": true,
+        "bodyAndEvidenceVisible": true,
+        "refreshRetained": true,
+        "versions": [
+          1,
+          2
+        ],
+        "canonicalContentUnchanged": true
+      }
+    ],
+    "mobileNoOverflow": true,
+    "notesCrossTab": true,
+    "newModelCalls": 0,
+    "passed": true
+  },
+  "noteMarkers": {
+    "recordedAt": "2026-10-28T18:26:38.245Z",
+    "kind": "actual-production-saved-note-marker-check",
+    "newModelCalls": 0,
+    "blueDot": true,
+    "previousDateAlsoMarked": true,
+    "passed": true
+  },
+  "publicAssets": {
+    "paths": [
+      {
+        "path": "/.env.local",
+        "http": 404,
+        "notServed": true
+      },
+      {
+        "path": "/.env",
+        "http": 404,
+        "notServed": true
+      },
+      {
+        "path": "/.git/config",
+        "http": 404,
+        "notServed": true
+      }
+    ],
+    "jsAssets": 11,
+    "findings": [],
+    "removedChartNoteAbsent": true,
+    "passed": true
+  },
+  "guards": [
+    {
+      "id": "missing-session",
+      "http": 403,
+      "expected": 403,
+      "passed": true,
+      "errorCode": "SESSION_INVALID"
+    },
+    {
+      "id": "forged-financial-data",
+      "http": 400,
+      "expected": 400,
+      "passed": true,
+      "errorCode": null
+    },
+    {
+      "id": "cross-origin",
+      "http": 403,
+      "expected": 403,
+      "passed": true,
+      "errorCode": "ORIGIN_MISMATCH"
+    },
+    {
+      "id": "unknown-task",
+      "http": 404,
+      "expected": 404,
+      "passed": true,
+      "errorCode": null
+    }
+  ],
+  "sameProviderCrosscheck": {
+    "recordedAt": "2026-10-28T18:18:58.665Z",
+    "kind": "actual-production-versus-direct-same-provider-check",
+    "date": "2026-10-28",
+    "index": "000001.SH",
+    "http": 200,
+    "businessCode": 0,
+    "exactDatePresent": true,
+    "closeMatches": true,
+    "ohlcMatches": true,
+    "note": "Two paths to the same provider; not an independent-source audit"
+  },
+  "localChecks": {
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "units": {
+      "passed": 140,
+      "failed": 0,
+      "constructed": true
+    },
+    "previousLocalBrowserSuite": {
+      "passed": 19,
+      "rerunThisPhase": false
+    }
+  },
+  "valueData": {
+    "historicalValuationFields": 6,
+    "announcementFields": 4,
+    "industryIdentityFields": 1,
+    "industryNewsFields": 4,
+    "industryMetrics": 26,
+    "qoqFields": 0,
+    "rejectedValuationRows": 97
+  },
+  "knownGaps": [
+    "Independent report feedback loop",
+    "Measured real-user value",
+    "Formal 24-hour window not confirmed",
+    "Public data display/cache permissions not independently confirmed",
+    "Comparable QoQ unavailable this run",
+    "Complete announcements/policy/prosperity/history coverage",
+    "Cross-device persistence and global task/quota governance",
+    "Optional demonstration video not created"
+  ],
+  "logAppendIntegrity": [
+    {
+      "file": "docs/logs/开发日志.md",
+      "oldBytes": 38399,
+      "oldSha256": "51bc73b1375ec6753c972958bcaf6fed465899ce4dc00db76c78a34da7d74778",
+      "oldPrefixPreserved": true
+    },
+    {
+      "file": "docs/logs/AI使用与验证记录.md",
+      "oldBytes": 27583,
+      "oldSha256": "7e59dbf0973b5edbf4a9fa4c577eee0b8f068d51273adb91e354b490e39e4d25",
+      "oldPrefixPreserved": true
+    },
+    {
+      "file": "docs/tests/测试记录.md",
+      "oldBytes": 33762,
+      "oldSha256": "23992da884398da33bd22406a71d6608587e1245a8768fdf2a772e3fd0a431b9",
+      "oldPrefixPreserved": true
+    },
+    {
+      "file": "docs/api/接口验证记录.md",
+      "oldBytes": 26128,
+      "oldSha256": "63fe7ecedfb0019dab78beb58ea0ea820f1c425f8de7f4952233bd056bebd0e9",
+      "oldPrefixPreserved": true
+    },
+    {
+      "file": "docs/README.md",
+      "oldBytes": 4437,
+      "oldSha256": "c2e57efa070ef815dbbc7528d4c4943234ac7adc9288fc9e90b96b55c26ff0e2",
+      "oldPrefixPreserved": true
+    },
+    {
+      "file": "docs/examples/README.md",
+      "oldBytes": 2187,
+      "oldSha256": "4d857a7cae3eb170f7e3fed0c03f3a30d2185177ee51b1a0d169817b8895bbb9",
+      "oldPrefixPreserved": true
+    }
+  ],
+  "localBaselineCommit": "cac51811218c8eb80c87e08d4993e0d0811cb5c8",
+  "productionDeploymentShaIndependentlyVerified": false
+}

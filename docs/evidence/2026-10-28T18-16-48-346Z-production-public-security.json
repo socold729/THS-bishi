@@ -1,0 +1,87 @@
+{
+  "recordedAt": "2026-10-28T18:16:47.769Z",
+  "kind": "actual-production-public-assets-check",
+  "base": "https://ths-bishi-83sj.vercel.app",
+  "paths": [
+    {
+      "path": "/.env.local",
+      "http": 404,
+      "notServed": true
+    },
+    {
+      "path": "/.env",
+      "http": 404,
+      "notServed": true
+    },
+    {
+      "path": "/.git/config",
+      "http": 404,
+      "notServed": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/_next/static/immutable/chunks/0k46l0-jsw7tw.js",
+      "http": 200,
+      "bytes": 34043
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2l06fqkvs9eow.js",
+      "http": 200,
+      "bytes": 230281
+    },
+    {
+      "path": "/_next/static/immutable/chunks/3zl3cutpmcluc.js",
+      "http": 200,
+      "bytes": 163048
+    },
+    {
+      "path": "/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+      "http": 200,
+      "bytes": 10030
+    },
+    {
+      "path": "/_next/static/immutable/chunks/1vrw-6x838rtl.js",
+      "http": 200,
+      "bytes": 28385
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2nupeu0ds9zz5.js",
+      "http": 200,
+      "bytes": 112482
+    },
+    {
+      "path": "/_next/static/immutable/chunks/0e0e524_1r4tv.js",
+      "http": 200,
+      "bytes": 23246
+    },
+    {
+      "path": "/_next/static/immutable/chunks/1_o6zebk0xazb.js",
+      "http": 200,
+      "bytes": 425859
+    },
+    {
+      "path": "/_next/static/immutable/chunks/27mcuuxzvjt_6.js",
+      "http": 200,
+      "bytes": 32306
+    },
+    {
+      "path": "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "http": 200,
+      "bytes": 112594
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2c_2b2prcozy6.js",
+      "http": 200,
+      "bytes": 5361
+    }
+  ],
+  "findings": [],
+  "removedChartNoteAbsent": true,
+  "configuredCredentialNamesChecked": [
+    "FUYAO_API_KEY",
+    "IFIND_MCP_KEY",
+    "OPENAI_API_KEY"
+  ],
+  "passed": true
+}
