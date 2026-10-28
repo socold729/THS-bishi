@@ -27,8 +27,7 @@ function CandleTooltip({ active, payload }: TooltipContentProps<TooltipValueType
 export function PriceChart({ bars, period, indicatorsComplete, name }: { bars: Bar[]; period: Period; indicatorsComplete: boolean; name: string }) {
   const data = visibleCandlePoints(bars, period, indicatorsComplete);
   if (!data.length) return <div className="empty-state chart-empty"><h3>暂时没有可绘制的行情</h3><p>需要有效的开盘、最高、最低和收盘价。数据不足时保持留白。</p></div>;
-  const unavailable=MOVING_AVERAGES.filter(a=>data[0]?.[a.key]===null).map(a=>a.label);
-  return <><p className="chart-warmup-note helper">先用额外真实历史数据计算，再显示最近{data.length}根K线。{unavailable.length?`${unavailable.join("、")}在可见前段暂无足够历史或数据不完整，缺失段不补值。`:"均线已覆盖当前可见区间。"} 日历仅核对近一年；更早预热按供应商实际返回序列。月MA60受接口近5年历史上限影响，可能无法全程显示。</p><div className="price-chart candlestick-chart" role="img" aria-label={`${name}${period === "day" ? "日" : period === "week" ? "周" : "月"}K线图，${data.length}根K线`}>
+  return <div className="price-chart candlestick-chart" role="img" aria-label={`${name}${period === "day" ? "日" : period === "week" ? "周" : "月"}K线图，${data.length}根K线`}>
     <ResponsiveContainer width="100%" height="100%" minHeight={260}>
       <ComposedChart data={data} margin={{ top: 18, right: 12, left: 0, bottom: 4 }} barCategoryGap="15%">
         <CartesianGrid stroke="#edf0f2" vertical={false} />
@@ -39,5 +38,5 @@ export function PriceChart({ bars, period, indicatorsComplete, name }: { bars: B
         {MOVING_AVERAGES.map(average => <Line key={average.key} pointerEvents="none" className={`moving-average-${average.key}`} type="linear" dataKey={average.key} name={average.label} stroke={average.color} strokeWidth={1.1} dot={false} isAnimationActive={false} connectNulls={false} />)}
       </ComposedChart>
     </ResponsiveContainer>
-  </div></>;
+  </div>;
 }
