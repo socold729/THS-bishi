@@ -1,0 +1,40 @@
+{
+  "recordedAt": "2026-10-28T17:57:52.964Z",
+  "phase": "first-source-snapshot-pushed-and-verified-before-this-record",
+  "verification": {
+    "recordedAt": "2026-10-28T17:57:20.024Z",
+    "kind": "actual-github-api-tree-verification",
+    "repository": "https://github.com/socold729/THS-bishi",
+    "branch": "main",
+    "localCommit": "dbbaf81bb19d6ea0ec29428e45bce49feb69cdcc",
+    "remoteCommit": "dbbaf81bb19d6ea0ec29428e45bce49feb69cdcc",
+    "commitMatches": true,
+    "treeMatches": true,
+    "remoteFiles": 219,
+    "allFileBlobHashesMatch": true,
+    "mismatches": [],
+    "extras": [],
+    "requiredFilesPresent": true,
+    "missing": [],
+    "forbiddenPaths": [],
+    "screenshotCount": 4,
+    "passed": true
+  },
+  "historyAudit": {
+    "reachableCommits": 1,
+    "uniqueObjectsScanned": 220,
+    "configuredCredentialNames": [
+      "FUYAO_API_KEY",
+      "IFIND_MCP_KEY",
+      "OPENAI_API_KEY"
+    ],
+    "findings": [],
+    "passed": true
+  },
+  "privateWorkingDataUploaded": false,
+  "forcePushUsed": false,
+  "notes": [
+    "This record is added in a subsequent documentation commit; file count and commit above refer to the first verified source snapshot.",
+    "The first verification used a commit ID in the tree request; explicit commit.tree resolution fixed that comparison. Both attempts are preserved privately."
+  ]
+}
